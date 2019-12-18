@@ -39,18 +39,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"htabcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"id" : "obj-6",
-					"maxclass" : "tab",
+					"id" : "obj-5",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.5, 57.0, 91.0, 22.0 ],
+					"text" : "sprintf %.3d.jpg"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 23.0, 200.0, 24.0 ],
-					"rounded" : 0.0,
-					"segmented" : 1,
-					"tabcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
-					"tabs" : [ "1.jpg", "2.jpg", "3.jpg", "4.jpg" ]
+					"patching_rect" : [ 15.5, 20.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -61,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 106.5, 68.0, 95.0, 22.0 ],
+					"patching_rect" : [ 15.5, 95.0, 95.0, 22.0 ],
 					"text" : "prepend /picture"
 				}
 
@@ -72,7 +79,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 106.5, 109.0, 142.0, 22.0 ],
+					"patching_rect" : [ 15.5, 136.0, 142.0, 22.0 ],
 					"text" : "udpsend localhost 12345"
 				}
 
@@ -87,8 +94,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-6", 1 ]
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
