@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 111.5, 484.0, 142.0, 22.0 ],
+					"text" : "prepend /picture_fadeout"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 66.5, 261.0, 64.0, 22.0 ],
+					"text" : "bucket 2 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-41",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -168,8 +192,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 66.5, 259.0, 95.0, 22.0 ],
-					"text" : "prepend /picture"
+					"patching_rect" : [ 66.5, 514.0, 135.0, 22.0 ],
+					"text" : "prepend /picture_fadein"
 				}
 
 			}
@@ -179,7 +203,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 66.5, 292.0, 142.0, 22.0 ],
+					"patching_rect" : [ 66.5, 547.0, 142.0, 22.0 ],
 					"text" : "udpsend localhost 12345"
 				}
 
@@ -208,16 +232,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-26", 0 ]
+					"destination" : [ "obj-37", 2 ],
+					"midpoints" : [ 116.5, 249.0, 432.0, 249.0 ],
+					"source" : [ "obj-26", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-37", 2 ],
-					"midpoints" : [ 116.5, 249.0, 432.0, 249.0 ],
-					"source" : [ "obj-26", 1 ]
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
@@ -259,6 +283,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-4", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-41", 0 ]
 				}
@@ -278,15 +316,15 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "001.jpg",
-				"bootpath" : "~/Desktop/git_all/2020_musical/media/img",
-				"patcherrelativepath" : "../../media/img",
-				"type" : "JPEG",
-				"implicit" : 1
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
 			}
  ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
