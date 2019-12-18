@@ -7,7 +7,7 @@
 - test
   - Max
     - Maxパッチ等
-  - Touchdesigner
+  - TD
     - TD関係
 - ReadMe
 - media
