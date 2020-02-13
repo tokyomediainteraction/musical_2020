@@ -2,8 +2,8 @@ const {execSync} = require('child_process');
 const maxAPI = require('max-api');
 
 const config = { 
-  "appPath":"/Applications/TouchDesigner099.app",
-  "filePath":"/Users/miyamototakashi/Desktop/git_all/2020_musical/test/TD/blurTest.1.toe"
+  "appPath":"/Applications/TouchDesigner.app",
+  "filePath":"/Users/Kairi/TMI/2020/musical_2020/test/TD/blurTest.toe"
 }
 maxAPI.addHandler('openTD', ()=> {
   try{
