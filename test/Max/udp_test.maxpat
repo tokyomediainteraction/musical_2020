@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1222.0, 271.0, 815.0, 708.0 ],
+		"rect" : [ 48.0, 131.0, 815.0, 708.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -115,7 +115,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 104.0, 585.0, 154.0, 22.0 ],
+					"patching_rect" : [ 98.0, 616.0, 154.0, 22.0 ],
 					"text" : "prepend /picture_crossfade"
 				}
 
@@ -125,10 +125,10 @@
 					"id" : "obj-27",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "int", "int", "int", "bang" ],
-					"patching_rect" : [ 507.0, 227.0, 50.5, 22.0 ],
-					"text" : "t i i i b"
+					"numoutlets" : 5,
+					"outlettype" : [ "int", "int", "int", "int", "bang" ],
+					"patching_rect" : [ 507.0, 227.0, 61.0, 22.0 ],
+					"text" : "t i i i i b"
 				}
 
 			}
@@ -368,7 +368,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 110.0, 514.0, 142.0, 22.0 ],
+					"patching_rect" : [ 110.0, 544.0, 142.0, 22.0 ],
 					"text" : "prepend /picture_fadeout"
 				}
 
@@ -395,7 +395,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 210.5, 325.0, 150.0, 150.0 ],
-					"pic" : "230.jpg"
+					"pic" : "164.jpg"
 				}
 
 			}
@@ -504,7 +504,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 65.0, 544.0, 135.0, 22.0 ],
+					"patching_rect" : [ 13.5, 576.0, 135.0, 22.0 ],
 					"text" : "prepend /picture_fadein"
 				}
 
@@ -515,7 +515,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 65.0, 655.0, 142.0, 22.0 ],
+					"patching_rect" : [ 66.0, 673.0, 142.0, 22.0 ],
 					"text" : "udpsend localhost 12345"
 				}
 
@@ -657,6 +657,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-27", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-27", 2 ]
 				}
@@ -665,7 +672,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
-					"source" : [ "obj-27", 3 ]
+					"source" : [ "obj-27", 4 ]
 				}
 
 			}
@@ -849,7 +856,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "230.jpg",
+				"name" : "164.jpg",
 				"bootpath" : "~/TMI/2020/musical_2020/media/img",
 				"patcherrelativepath" : "../../media/img",
 				"type" : "JPEG",
