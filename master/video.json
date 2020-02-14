@@ -1,8 +1,16 @@
 {
-  "scene_1":{
-    "mediaPath":"",
-    "mediaType":"",
-    "fadeDuration":"",
-    "followText":""
-  }
+	"scene_1" : 	{
+		"mediaPath" : "test",
+		"mediaType" : "1111",
+		"fadeDuration" : "22222",
+		"followText" : "33333"
+	}
+,
+	"scene_2" : 	{
+		"mediaPath" : "testsfklbhv",
+		"mediaType" : "1111a",
+		"fadeDuration" : "22222a",
+		"followText" : "33333a"
+	}
+
 }
