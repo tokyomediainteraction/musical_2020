@@ -52,6 +52,8 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1.0, 117.0, 324.0, 49.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 117.0, 324.0, 49.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -72,6 +74,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1.0, 168.0, 324.0, 56.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 168.0, 324.0, 56.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -86,6 +90,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.0, 77.0, 206.0, 38.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 1.0, 77.0, 206.0, 38.0 ],
 					"text" : "Created by Tokyo Media Interaction\nmediainteraction.tokyo",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -100,6 +107,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.0, 6.0, 625.0, 69.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 6.0, 625.0, 69.0 ],
 					"text" : "MUSICAL CUEING SYSTEM",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}

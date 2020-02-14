@@ -47,7 +47,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 313.0, 149.0, 314.0, 48.0 ],
+					"patching_rect" : [ 255.0, 113.0, 314.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 2.0, 320.0, 47.0 ],
 					"text" : " OPEN TouchDesigner",
@@ -114,8 +114,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
