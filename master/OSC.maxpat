@@ -333,7 +333,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"fontname" : "Futura Medium",
 					"fontsize" : 30.0,
 					"id" : "obj-21",
@@ -343,8 +343,8 @@
 					"patching_rect" : [ 14.0, 522.0, 175.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 116.0, 6.0, 205.0, 45.0 ],
-					"text" : "Disconnect",
-					"textcolor" : [ 1.0, 1.0, 0.0, 0.0 ],
+					"text" : "Connecting",
+					"textcolor" : [ 0.0, 0.0, 1.0, 0.12 ],
 					"textjustification" : 1
 				}
 
