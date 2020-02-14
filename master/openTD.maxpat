@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 102.0, 104.0, 640.0, 480.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -38,6 +38,24 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Futura Medium",
+					"fontsize" : 30.0,
+					"id" : "obj-7",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 313.0, 149.0, 314.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.0, 2.0, 320.0, 47.0 ],
+					"text" : " OPEN TouchDesigner",
+					"textoncolor" : [ 1.0, 0.709804, 0.196078, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
@@ -142,16 +160,14 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "td.js",
-				"bootpath" : "~/Desktop/git_all/2020_musical/master",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
 			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

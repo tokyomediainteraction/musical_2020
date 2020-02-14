@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 458.0, 363.0, 913.0, 808.0 ],
+		"rect" : [ 559.0, 438.0, 913.0, 808.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -77,7 +77,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-51",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -342,9 +342,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 522.0, 175.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 116.0, 6.0, 175.0, 45.0 ],
+					"presentation_rect" : [ 116.0, 6.0, 205.0, 45.0 ],
 					"text" : "Disconnect",
-					"textcolor" : [ 1.0, 1.0, 0.0, 0.08 ]
+					"textcolor" : [ 1.0, 1.0, 0.0, 0.0 ],
+					"textjustification" : 1
 				}
 
 			}
@@ -365,27 +366,18 @@
 					"fontname" : "Futura Medium",
 					"fontsize" : 30.0,
 					"id" : "obj-12",
-					"maxclass" : "live.text",
+					"maxclass" : "textbutton",
+					"mode" : 1,
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 181.0, 75.0, 109.0, 44.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 181.0, 75.0, 114.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 6.0, 109.0, 45.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_type" : 2,
-							"parameter_longname" : "live.text",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.text"
-						}
-
-					}
-,
+					"presentation_rect" : [ 5.0, 5.0, 109.0, 47.0 ],
 					"text" : "Polling",
 					"texton" : "Polling",
+					"textoncolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
 					"varname" : "live.text"
 				}
 
@@ -430,7 +422,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -442,7 +434,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -637,17 +629,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-12" : [ "live.text", "live.text", 0 ],
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
