@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 104.0, 640.0, 480.0 ],
+		"rect" : [ 160.0, 221.0, 1109.0, 712.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -37,10 +37,41 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"boxes" : [  ],
+		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Futura Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1.0, 77.0, 206.0, 38.0 ],
+					"text" : "Created by Tokyo Media Interaction\nmediainteraction.tokyo",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Futura Medium",
+					"fontsize" : 48.0,
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1.0, 6.0, 625.0, 69.0 ],
+					"text" : "MUSICAL CUEING SYSTEM",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+				}
+
+			}
+ ],
 		"lines" : [  ],
 		"dependency_cache" : [  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.243137, 0.243137, 0.243137, 1.0 ],
+		"editing_bgcolor" : [ 0.243137, 0.243137, 0.243137, 1.0 ]
 	}
 
 }
