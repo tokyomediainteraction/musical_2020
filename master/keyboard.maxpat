@@ -87,7 +87,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 9.0, 51.0, 105.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 148.0, 105.0 ],
+					"presentation_rect" : [ 2.0, 2.0, 124.0, 105.0 ],
 					"text" : "KEY",
 					"texton" : "KEY",
 					"textoncolor" : [ 1.0, 0.709804, 0.196078, 1.0 ]
@@ -117,7 +117,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 667.0, 143.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 152.0, 57.0, 148.0, 53.0 ],
+					"presentation_rect" : [ 128.0, 57.0, 217.0, 53.0 ],
 					"text" : "0",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
@@ -651,7 +651,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 44.5, 412.0, 143.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 152.0, 2.0, 148.0, 53.0 ],
+					"presentation_rect" : [ 128.0, 2.0, 217.0, 53.0 ],
 					"text" : "esc",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1

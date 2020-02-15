@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 342.0, 98.0, 1221.0, 525.0 ],
+		"rect" : [ 609.0, 79.0, 1405.0, 794.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -51,7 +51,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 327.0, 117.0, 305.0, 107.0 ],
+					"patching_rect" : [ 327.0, 117.0, 299.0, 107.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 329.0, 117.0, 350.0, 107.0 ],
 					"viewvisibility" : 1
@@ -69,12 +69,12 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "text_cue.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 634.0, 117.0, 459.0, 386.0 ],
+					"patching_rect" : [ 461.0, 226.0, 459.0, 440.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 681.0, 117.0, 492.0, 392.0 ],
+					"presentation_rect" : [ 681.0, 226.0, 492.0, 392.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -90,12 +90,12 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "video_cue.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1.0, 226.0, 631.0, 277.0 ],
+					"patching_rect" : [ 1.0, 226.0, 458.0, 440.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 226.0, 678.0, 283.0 ],
+					"presentation_rect" : [ 1.0, 226.0, 678.0, 420.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -181,14 +181,14 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-1::obj-16" : [ "live.dial[1]", "SCNE", 0 ],
-			"obj-5::obj-16" : [ "live.dial", "SCNE", 0 ],
+			"obj-5::obj-13" : [ "live.dial", "SCNE", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-16" : 				{
-					"parameter_longname" : "live.dial[1]"
+				"obj-5::obj-13" : 				{
+					"parameter_longname" : "live.dial"
 				}
 
 			}
