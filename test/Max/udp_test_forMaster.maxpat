@@ -115,8 +115,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 98.0, 616.0, 154.0, 22.0 ],
-					"text" : "prepend /picture_crossfade"
+					"patching_rect" : [ 98.0, 616.0, 150.0, 22.0 ],
+					"text" : "prepend /pictureCrossfade"
 				}
 
 			}
@@ -183,11 +183,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 468.0, 554.0, 67.0, 20.0 ],
-					"text" : "Off = Black"
+					"patching_rect" : [ 468.0, 554.0, 67.0, 47.0 ],
+					"presentation_linecount" : 2,
+					"text" : "Off = BlackOut\n"
 				}
 
 			}
@@ -246,8 +248,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 442.0, 616.0, 139.0, 22.0 ],
-					"text" : "prepend /picture_master"
+					"patching_rect" : [ 442.0, 616.0, 123.0, 22.0 ],
+					"text" : "prepend /masterFade"
 				}
 
 			}
@@ -284,8 +286,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 616.0, 148.0, 22.0 ],
-					"text" : "prepend /picture_fadetime"
+					"patching_rect" : [ 270.0, 616.0, 128.0, 22.0 ],
+					"text" : "prepend /fadeDuration"
 				}
 
 			}
@@ -368,8 +370,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 110.0, 544.0, 142.0, 22.0 ],
-					"text" : "prepend /picture_fadeout"
+					"patching_rect" : [ 110.0, 544.0, 123.0, 22.0 ],
+					"text" : "prepend /mediaPath2"
 				}
 
 			}
@@ -395,7 +397,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 210.5, 325.0, 150.0, 150.0 ],
-					"pic" : "164.jpg"
+					"pic" : "084.jpg"
 				}
 
 			}
@@ -504,8 +506,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.5, 576.0, 135.0, 22.0 ],
-					"text" : "prepend /picture_fadein"
+					"patching_rect" : [ 13.5, 576.0, 123.0, 22.0 ],
+					"text" : "prepend /mediaPath1"
 				}
 
 			}
@@ -856,7 +858,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "164.jpg",
+				"name" : "084.jpg",
 				"bootpath" : "~/TMI/2020/musical_2020/media/img",
 				"patcherrelativepath" : "../../media/img",
 				"type" : "JPEG",
