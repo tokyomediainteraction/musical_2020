@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 587.0, 98.0, 997.0, 927.0 ],
+		"rect" : [ 342.0, 98.0, 1221.0, 525.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,6 +44,48 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"id" : "obj-4",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "keyboard.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 327.0, 117.0, 305.0, 107.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 329.0, 117.0, 350.0, 107.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "text_cue.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 634.0, 117.0, 459.0, 386.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 681.0, 117.0, 492.0, 392.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-5",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
@@ -51,9 +93,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1.0, 226.0, 687.0, 667.0 ],
+					"patching_rect" : [ 1.0, 226.0, 631.0, 277.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 226.0, 615.0, 250.0 ],
+					"presentation_rect" : [ 1.0, 226.0, 678.0, 283.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -138,8 +180,16 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-1::obj-16" : [ "live.dial[1]", "SCNE", 0 ],
 			"obj-5::obj-16" : [ "live.dial", "SCNE", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-16" : 				{
+					"parameter_longname" : "live.dial[1]"
+				}
 
 			}
 
@@ -171,6 +221,27 @@
 				"bootpath" : "~/Desktop/git_all/2020_musical/master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "text_cue.maxpat",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "keyboard.maxpat",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "keyCounter.js",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],

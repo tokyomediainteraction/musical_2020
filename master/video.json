@@ -1,6 +1,6 @@
 {
 	"scene_1" : 	{
-		"mediaPath" : "test",
+		"mediaPath" : "test/test",
 		"mediaType" : "1111",
 		"fadeDuration" : "22222",
 		"followText" : "33333"
