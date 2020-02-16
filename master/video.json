@@ -1,27 +1,27 @@
 {
-	"scene" : [
-		{	"masterFade" : "1",
+	"scene" : [ 		{
+			"masterFade" : 3000,
 			"mediaPath1" : "0",
-			"mediaPath2": "0",
-			"pictureCrossfade": "0",
+			"mediaPath2" : "0",
+			"pictureCrossfade" : "0",
 			"fadeDuration" : "3000",
 			"followText" : "TEST"
-		},
-		{
+		}
+, 		{
 			"masterFade" : "0",
 			"mediaPath1" : "1",
-			"mediaPath2": "0",
-			"pictureCrossfade": "0",
+			"mediaPath2" : "0",
+			"pictureCrossfade" : "0",
 			"fadeDuration" : "3000",
 			"followText" : "TESTEST"
-		},
-		{
+		}
+, 		{
 			"masterFade" : "0",
 			"mediaPath1" : "1",
-			"mediaPath2": "2",
-			"pictureCrossfade": "1",
+			"mediaPath2" : "2",
+			"pictureCrossfade" : "1",
 			"fadeDuration" : "300",
 			"followText" : "TESTESTEST"
 		}
-	]
+ ]
 }
