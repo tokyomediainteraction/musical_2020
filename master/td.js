@@ -1,4 +1,5 @@
 const {execSync} = require('child_process');
+const path = require('path');
 const maxAPI = require('max-api');
 const config = require('./td_path.json')
 
@@ -14,7 +15,8 @@ maxAPI.addHandler('openTD', () => {
     }
   });
   const openTd = () => new Promise((resolve, reject) =>{
-    execSync(`open ${config.filePath}`); 
+    const abspath = __dirname + '/' + config.filePath;
+    execSync(`open ${abspath}`); 
     setTimeout(() => {
       resolve();
     }, 1000);

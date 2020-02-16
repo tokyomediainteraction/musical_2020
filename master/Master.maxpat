@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 609.0, 79.0, 1405.0, 794.0 ],
+		"rect" : [ 609.0, 79.0, 1139.0, 554.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -180,8 +180,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-16" : [ "live.dial[1]", "SCNE", 0 ],
 			"obj-5::obj-13" : [ "live.dial", "SCNE", 0 ],
+			"obj-1::obj-16" : [ "live.dial[1]", "SCNE", 0 ],
 			"parameterbanks" : 			{
 
 			}
