@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 234.0, 91.0, 1219.0, 759.0 ],
+		"rect" : [ 234.0, 91.0, 1391.0, 1028.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -53,7 +53,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 327.0, 117.0, 299.0, 107.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 329.0, 117.0, 350.0, 107.0 ],
+					"presentation_rect" : [ 329.0, 117.0, 350.0, 169.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -74,7 +74,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 461.0, 226.0, 459.0, 440.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 681.0, 226.0, 492.0, 392.0 ],
+					"presentation_rect" : [ 681.0, 288.0, 492.0, 392.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -95,7 +95,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1.0, 226.0, 458.0, 440.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 226.0, 678.0, 420.0 ],
+					"presentation_rect" : [ 1.0, 288.0, 678.0, 420.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -116,7 +116,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1.0, 117.0, 324.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 117.0, 324.0, 49.0 ],
+					"presentation_rect" : [ 1.0, 229.0, 324.0, 57.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -138,7 +138,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1.0, 168.0, 324.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 168.0, 324.0, 56.0 ],
+					"presentation_rect" : [ 1.0, 117.0, 324.0, 110.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -180,13 +180,17 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-16" : [ "live.dial[1]", "SCNE", 0 ],
+			"obj-1::obj-13" : [ "live.dial[2]", "SCNE", 0 ],
 			"obj-5::obj-13" : [ "live.dial", "SCNE", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-13" : 				{
+					"parameter_longname" : "live.dial[2]"
+				}
+,
 				"obj-5::obj-13" : 				{
 					"parameter_longname" : "live.dial"
 				}

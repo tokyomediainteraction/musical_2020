@@ -40,13 +40,18 @@
 		"workspacedisabled" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 227.0, 289.0, 50.0, 22.0 ],
-					"text" : "109"
+					"fontname" : "Futura Medium",
+					"fontsize" : 36.0,
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 152.0, 25.5, 229.0, 53.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 1.5, 343.0, 53.0 ],
+					"text" : "KEY DEVICE",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
@@ -99,7 +104,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 9.0, 51.0, 105.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 124.0, 105.0 ],
+					"presentation_rect" : [ 1.0, 56.5, 124.0, 105.0 ],
 					"text" : "KEY",
 					"texton" : "KEY",
 					"textoncolor" : [ 1.0, 0.709804, 0.196078, 1.0 ]
@@ -129,7 +134,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 667.0, 143.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 128.0, 57.0, 217.0, 53.0 ],
+					"presentation_rect" : [ 127.0, 111.5, 217.0, 53.0 ],
 					"text" : "0",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
@@ -698,7 +703,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 44.5, 412.0, 143.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 128.0, 2.0, 217.0, 53.0 ],
+					"presentation_rect" : [ 127.0, 56.5, 217.0, 53.0 ],
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -731,16 +736,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 1 ],
-					"order" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
-					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 

@@ -82,7 +82,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -491,10 +490,10 @@
 					"presentation_rect" : [ -0.5, 3.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_unitstyle" : 0,
 							"parameter_longname" : "live.dial",
 							"parameter_shortname" : "SCNE",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0
+							"parameter_type" : 1
 						}
 
 					}
