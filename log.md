@@ -50,6 +50,17 @@
     - 統合版作成
     - crossFade（バグ修正）とblur実装
 
+
+
+### 2/17
+
+TouchDesigner（Kairi）
+
+- master.toe
+  - クロスフェード部分大幅修正（Max側からは単一のパス(now)のみを受け取り、1つ前のパス(prev)はTD内で管理）
+    - newTest.maxpatでクロスフェード部分のみのテスト可能（とりあえず同ディレクトリに入れちゃった。）
+  - openTD.maxpatからmaster.toeを立ち上げ完了した際に"CHECKED"メッセージ、master.toeを閉じた際の”EXIT"メッセージをOSC.maxpatへ送信
+
 #### 課題
 
 - ~~TD上での数値のカービング・イージング手段を調査（とりあえずInterpolateのEase In/Out）~~
