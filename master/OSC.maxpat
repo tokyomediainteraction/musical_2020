@@ -63,19 +63,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-89",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 284.0, 7.0, 150.0, 34.0 ],
-					"text" : "ここを繋ぐとフィードッバックしちゃった",
-					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-87",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -189,8 +176,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 254.0, 249.0, 109.0, 22.0 ],
-					"text" : "prepend /osccheck"
+					"patching_rect" : [ 254.0, 249.0, 112.0, 22.0 ],
+					"text" : "prepend /oscCheck"
 				}
 
 			}
@@ -266,7 +253,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 14.0, 657.0, 112.0, 22.0 ],
-					"text" : "s"
+					"text" : "Disconnect"
 				}
 
 			}
@@ -541,7 +528,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 111.0, 55.5, 211.0, 45.0 ],
 					"text" : "Disconnect",
-					"textcolor" : [ 1.0, 1.0, 0.0, 0.0 ],
+					"textcolor" : [ 1.0, 1.0, 0.0, 0.2256 ],
 					"textjustification" : 1
 				}
 
@@ -586,8 +573,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 362.0, 93.0, 22.0 ],
-					"text" : "route /osccheck"
+					"patching_rect" : [ 14.0, 362.0, 95.0, 22.0 ],
+					"text" : "route /oscCheck"
 				}
 
 			}

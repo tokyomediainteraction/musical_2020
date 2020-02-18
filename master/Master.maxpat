@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 234.0, 91.0, 1391.0, 1028.0 ],
+		"rect" : [ 192.0, 78.0, 1391.0, 1028.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -180,19 +180,19 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-13" : [ "live.dial[2]", "SCNE", 0 ],
 			"obj-5::obj-13" : [ "live.dial", "SCNE", 0 ],
+			"obj-1::obj-13" : [ "live.dial[2]", "SCNE", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-13" : 				{
-					"parameter_longname" : "live.dial[2]"
-				}
-,
 				"obj-5::obj-13" : 				{
 					"parameter_longname" : "live.dial"
+				}
+,
+				"obj-1::obj-13" : 				{
+					"parameter_longname" : "live.dial[2]"
 				}
 
 			}
@@ -201,49 +201,49 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "OSC.maxpat",
-				"bootpath" : "~/Desktop/git_all/2020_musical/master",
+				"bootpath" : "~/TMI/2020/musical_2020/master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "openTD.maxpat",
-				"bootpath" : "~/Desktop/git_all/2020_musical/master",
+				"bootpath" : "~/TMI/2020/musical_2020/master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "td.js",
-				"bootpath" : "~/Desktop/git_all/2020_musical/master",
+				"bootpath" : "~/TMI/2020/musical_2020/master",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "video_cue.maxpat",
-				"bootpath" : "~/Desktop/git_all/2020_musical/master",
+				"bootpath" : "~/TMI/2020/musical_2020/master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "text_cue.maxpat",
-				"bootpath" : "~/Desktop/git_all/2020_musical/master",
+				"bootpath" : "~/TMI/2020/musical_2020/master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "keyboard.maxpat",
-				"bootpath" : "~/Desktop/git_all/2020_musical/master",
+				"bootpath" : "~/TMI/2020/musical_2020/master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "keyCounter.js",
-				"bootpath" : "~/Desktop/git_all/2020_musical/master",
+				"bootpath" : "~/TMI/2020/musical_2020/master",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
