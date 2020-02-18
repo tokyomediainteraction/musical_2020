@@ -4,17 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-<<<<<<< HEAD
 		"rect" : [ 75.0, 245.0, 1391.0, 1028.0 ],
-=======
-		"rect" : [ 192.0, 78.0, 1391.0, 1028.0 ],
->>>>>>> 08f7774efc52e0961c39e3c8dade342fddda660a
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -226,49 +222,49 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "OSC.maxpat",
-				"bootpath" : "~/TMI/2020/musical_2020/master",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "openTD.maxpat",
-				"bootpath" : "~/TMI/2020/musical_2020/master",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "td.js",
-				"bootpath" : "~/TMI/2020/musical_2020/master",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "video_cue.maxpat",
-				"bootpath" : "~/TMI/2020/musical_2020/master",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "text_cue.maxpat",
-				"bootpath" : "~/TMI/2020/musical_2020/master",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "keyboard.maxpat",
-				"bootpath" : "~/TMI/2020/musical_2020/master",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "keyCounter.js",
-				"bootpath" : "~/TMI/2020/musical_2020/master",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
