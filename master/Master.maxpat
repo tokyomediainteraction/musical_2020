@@ -256,7 +256,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "1_5_1_2.png",
+				"name" : "1_1.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/master/media",
 				"patcherrelativepath" : "./media",
 				"type" : "PNG",
