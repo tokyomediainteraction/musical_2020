@@ -1,3 +1,10 @@
 {
-  "keyName": "osckey"
+  "keyName": "osckey",
+  "oscCheck": "oscCheck",
+  "mediaPath": "mediaPath",
+  "fadeDuration": "fadeDuration",
+  "positionX": "positionX",
+  "positionY": "positionY",
+  "blurSwitch": "blurSwitch",
+  "followText": "followText"
 }
