@@ -5,6 +5,6 @@
   "fadeDuration": "fadeDuration",
   "positionX": "positionX",
   "positionY": "positionY",
-  "blurAmount": "blurAmount",
+  "blurSwitch": "blurSwitch",
   "followText": "followText"
 }
