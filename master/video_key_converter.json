@@ -3,8 +3,8 @@
   "oscCheck": "oscCheck",
   "mediaPath": "mediaPath",
   "fadeDuration": "fadeDuration",
-  "positionX": "positionX",
-  "positionY": "positionY",
+  "subtitlePositionY": "subtitlePositionY",
+  "blurPositionY": "blurPositionY",
   "blurSwitch": "blurSwitch",
   "followText": "followText"
 }

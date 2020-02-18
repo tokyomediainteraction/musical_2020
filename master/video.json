@@ -4,18 +4,24 @@
 			"madiaPath": "../media/img/000.jpg",
 			"fadeDuration": 4000,
 			"blurSwitch" : -1,
+			"subtitlePositionY": -300,
+  		"blurPositionY": -300,
 			"followText" : "TEST"
 		}
 , 	{
 			"madiaPath": "../media/img/001.jpg",
 			"fadeDuration": 4000,
 			"blurSwitch" : -1,
+			"subtitlePositionY": -300,
+  		"blurPositionY": -300,
 			"followText" : "TESTTEST"
 		}
 , 	{
 			"madiaPath": "../media/img/002.jpg",
 			"fadeDuration": 4000,
 			"blurSwitch" : -1,
+			"subtitlePositionY": -300,
+  		"blurPositionY": -300,
 			"followText" : "TESTTESTTEST"
 		}
  ]
