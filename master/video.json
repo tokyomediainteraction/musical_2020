@@ -1,27 +1,22 @@
 {
-	"scene" : [ 		{
-			"masterFade" : 3000,
-			"mediaPath1" : "0",
-			"mediaPath2" : "0",
-			"pictureCrossfade" : "0",
-			"fadeDuration" : "3000",
+	"scene" : [
+		{
+			"madiaPath": "../media/img/000.jpg",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
 			"followText" : "TEST"
 		}
-, 		{
-			"masterFade" : "0",
-			"mediaPath1" : "1",
-			"mediaPath2" : "0",
-			"pictureCrossfade" : "0",
-			"fadeDuration" : "3000",
-			"followText" : "TESTEST"
+, 	{
+			"madiaPath": "../media/img/001.jpg",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TESTTEST"
 		}
-, 		{
-			"masterFade" : "0",
-			"mediaPath1" : "1",
-			"mediaPath2" : "2",
-			"pictureCrossfade" : "1",
-			"fadeDuration" : "300",
-			"followText" : "TESTESTEST"
+, 	{
+			"madiaPath": "../media/img/002.jpg",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TESTTESTTEST"
 		}
  ]
 }
