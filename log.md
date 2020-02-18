@@ -69,10 +69,34 @@ Max（Kairi）
   - 立ち上げ完了時のメッセージをSTARTEDに変更。
   - TDからの返り値がSymbolだったのでListに変更するプロセスを実装。
 
+
+
+### 2/18
+
+TouchDesigner（Kairi）
+
+- master.toe
+  - key名変更"osccheck"→"oscCheck"
+  - フェードインアウトをEase IN&OUT化
+  - fadeDuration実装（受ける値は1s辺りの増加量）
+  - blurSwitch実装（ブラーをFade IN&OUT）
+- blurTest2.toe
+  - ブラー位置と字幕位置（仮）をスライダーで変更可能（数値でも制御可能）
+
+
+
+Max（Kairi）
+
+- Master.maxpat
+  - key名変更"osccheck"→"oscCheck"
+- newTEST.maxpat
+  - fadeDuration実装
+  - blurSwitch実装
+
 #### 課題
 
 - ~~TD上での数値のカービング・イージング手段を調査（とりあえずInterpolateのEase In/Out）~~
 - ~~JSONファイルの取り扱いの確認（字幕のソースをMaxとどちらに置くかを決めるため）~~
-- ブラー位置をMax側から制御出来ないかもしれない（パラメータパネルのUI自体を触る必要があるため）
+- ~~ブラー位置をMax側から制御出来ないかもしれない（パラメータパネルのUI自体を触る必要があるため）~~
 - ブラー位置と字幕位置は恐らく同期した制御システム
 - 字幕システムが画像ベースになる。
