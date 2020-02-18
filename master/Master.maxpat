@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 254.0, 167.0, 1391.0, 1028.0 ],
+		"rect" : [ 254.0, 167.0, 1145.0, 762.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -116,7 +116,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1.0, 226.0, 458.0, 440.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 288.0, 678.0, 458.0 ],
+					"presentation_rect" : [ -2.0, 289.0, 678.0, 458.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -201,19 +201,19 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-13" : [ "live.dial[2]", "SCNE", 0 ],
 			"obj-5::obj-13" : [ "live.dial", "SCNE", 0 ],
+			"obj-1::obj-13" : [ "live.dial[2]", "SCNE", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-13" : 				{
-					"parameter_longname" : "live.dial[2]"
-				}
-,
 				"obj-5::obj-13" : 				{
 					"parameter_longname" : "live.dial"
+				}
+,
+				"obj-1::obj-13" : 				{
+					"parameter_longname" : "live.dial[2]"
 				}
 
 			}
@@ -249,14 +249,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "1_1.png",
+				"name" : "0_0.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/master/media",
 				"patcherrelativepath" : "./media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "0_0.png",
+				"name" : "1_5_1_2.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/master/media",
 				"patcherrelativepath" : "./media",
 				"type" : "PNG",

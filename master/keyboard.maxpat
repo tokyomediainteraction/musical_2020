@@ -135,7 +135,7 @@
 					"patching_rect" : [ 9.0, 667.0, 143.0, 53.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 127.0, 111.5, 217.0, 53.0 ],
-					"text" : "0",
+					"text" : "9",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -704,6 +704,7 @@
 					"patching_rect" : [ 44.5, 412.0, 143.0, 53.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 127.0, 56.5, 217.0, 53.0 ],
+					"text" : "delete",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}

@@ -4,7 +4,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -12,7 +12,7 @@
 			"mediaPath" : "1_0.mov",
 			"previewPath" : "1_0.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TESTTEST"
 		}
 , 		{
@@ -20,7 +20,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -28,7 +28,7 @@
 			"mediaPath" : "1_1.mov",
 			"previewPath" : "1_1.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TESTTESTTEST"
 		}
 , 		{
@@ -36,7 +36,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -44,7 +44,7 @@
 			"mediaPath" : "1_2_1_1.png",
 			"previewPath" : "1_2_1_1.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -52,7 +52,7 @@
 			"mediaPath" : "1_2_2_4.png",
 			"previewPath" : "1_2_2_4.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -60,7 +60,7 @@
 			"mediaPath" : "1_2_3_8.png",
 			"previewPath" : "1_2_3_8.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -68,7 +68,7 @@
 			"mediaPath" : "1_3_1.png",
 			"previewPath" : "1_3_1.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -76,15 +76,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		}
-, 		{
-			"sceneName" : "1幕3場",
-			"mediaPath" : "",
-			"previewPath" : "",
-			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -92,7 +84,7 @@
 			"mediaPath" : "1_5_1_2.png",
 			"previewPath" : "1_5_1_2.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -100,7 +92,7 @@
 			"mediaPath" : "1_5_2.png",
 			"previewPath" : "1_5_2.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -108,7 +100,7 @@
 			"mediaPath" : "1_6_1_1.png",
 			"previewPath" : "1_6_1_1.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -116,7 +108,7 @@
 			"mediaPath" : "1_6_1_2.png",
 			"previewPath" : "1_6_1_2.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -124,7 +116,7 @@
 			"mediaPath" : "1_6_1_3.png",
 			"previewPath" : "1_6_1_3.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -132,7 +124,7 @@
 			"mediaPath" : "1_6_1_4.png",
 			"previewPath" : "1_6_1_4.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -140,7 +132,7 @@
 			"mediaPath" : "1_7_1.png",
 			"previewPath" : "1_7_1.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -148,7 +140,7 @@
 			"mediaPath" : "1_8_1.png",
 			"previewPath" : "1_8_1.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -156,7 +148,7 @@
 			"mediaPath" : "1_5_2.png",
 			"previewPath" : "1_5_2.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -164,7 +156,7 @@
 			"mediaPath" : "1_10_9.png",
 			"previewPath" : "1_10_9.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -172,7 +164,7 @@
 			"mediaPath" : "1_5_2.png",
 			"previewPath" : "1_5_2.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -180,7 +172,7 @@
 			"mediaPath" : "1_2_1_1.png",
 			"previewPath" : "1_2_1_1.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -188,7 +180,7 @@
 			"mediaPath" : "1_8_1.png",
 			"previewPath" : "1_8_1.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -196,7 +188,7 @@
 			"mediaPath" : "2_1_2.png",
 			"previewPath" : "2_1_2.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -204,7 +196,7 @@
 			"mediaPath" : "2_1_3.png",
 			"previewPath" : "2_1_3.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -212,7 +204,7 @@
 			"mediaPath" : "2_1_4.png",
 			"previewPath" : "2_1_4.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -220,7 +212,7 @@
 			"mediaPath" : "",
 			"previewPath" : "",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -228,7 +220,7 @@
 			"mediaPath" : "1_2_3_8.png",
 			"previewPath" : "1_2_3_8.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -236,7 +228,7 @@
 			"mediaPath" : "2_3_1.png",
 			"previewPath" : "2_3_1.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -244,7 +236,7 @@
 			"mediaPath" : "1_5_2.png",
 			"previewPath" : "1_5_2.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -252,7 +244,7 @@
 			"mediaPath" : "2_5_1.png",
 			"previewPath" : "2_5_1.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -260,7 +252,7 @@
 			"mediaPath" : "",
 			"previewPath" : "",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -268,7 +260,7 @@
 			"mediaPath" : "2_6_1.png",
 			"previewPath" : "2_6_1.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -276,7 +268,7 @@
 			"mediaPath" : "2_6_2.png",
 			"previewPath" : "2_6_2.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -284,7 +276,7 @@
 			"mediaPath" : "2_6_3.png",
 			"previewPath" : "2_6_3.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -292,7 +284,7 @@
 			"mediaPath" : "2_7_2.png",
 			"previewPath" : "2_7_2.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -300,7 +292,7 @@
 			"mediaPath" : "2_7_3.png",
 			"previewPath" : "2_7_3.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
@@ -308,7 +300,7 @@
 			"mediaPath" : "2_7_4.png",
 			"previewPath" : "2_7_4.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : -1,
+			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
  ]
