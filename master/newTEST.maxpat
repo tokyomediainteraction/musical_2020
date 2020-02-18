@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 50.0, 78.0, 1173.0, 311.0 ],
+		"rect" : [ 241.0, 644.0, 1173.0, 311.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -421,21 +421,21 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 14.0, 126.0, 76.0, 22.0 ],
-					"text" : "metro 10000"
+					"patching_rect" : [ 14.0, 126.0, 69.0, 22.0 ],
+					"text" : "metro 5000"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 198.0, 364.0, 328.0, 49.0 ],
-					"text" : "/mediaPath \"Macintosh HD:/Users/Kairi/TMI/2020/musical_2020/media/1_6_1_2.png\""
+					"patching_rect" : [ 198.0, 364.0, 328.0, 35.0 ],
+					"text" : "/mediaPath \"Macintosh HD:/Users/Kairi/TMI/2020/musical_2020/media/0_0.png\""
 				}
 
 			}
