@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 75.0, 245.0, 1391.0, 1028.0 ],
+		"rect" : [ 254.0, 167.0, 1391.0, 1028.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -249,7 +249,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "1_3_1.png",
+				"name" : "1_1.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/master/media",
 				"patcherrelativepath" : "./media",
 				"type" : "PNG",
