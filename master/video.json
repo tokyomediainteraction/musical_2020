@@ -1,6 +1,7 @@
 {
 	"scene" : [
 		{
+			"sceneName":"init",
 			"madiaPath": "0_0.png",
 			"previewPath":"0_0.png",
 			"fadeDuration": 4000,
@@ -8,13 +9,23 @@
 			"followText" : "TEST"
 		}
 , 	{
+			"sceneName":"opning",
 			"madiaPath": "1_0.mov",
 			"previewPath":"1_0.png",
 			"fadeDuration": 4000,
 			"blurSwitch" : -1,
 			"followText" : "TESTTEST"
+		},
+		{
+			"sceneName":"1幕1場",
+			"madiaPath": "0_0.png",
+			"previewPath":"0_0.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
 		}
 , 	{
+			"sceneName":"1幕1場",
 			"madiaPath": "1_1.mov",
 			"previewPath":"1_1.png",
 			"fadeDuration": 4000,
@@ -22,6 +33,47 @@
 			"followText" : "TESTTESTTEST"
 		},
 	 	{
+			"sceneName":"1幕1場",
+			"madiaPath": "0_0.png",
+			"previewPath":"",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"1幕2場",
+			"madiaPath": "1_2_1_1.png",
+			"previewPath":"1_2_1_1.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"1幕2場",
+			"madiaPath": "1_2_2_4.png",
+			"previewPath":"1_2_2_4.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"1幕2場",
+			"madiaPath": "1_2_3_8.png",
+			"previewPath":"1_2_3_8.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"1幕3場",
+			"madiaPath": "1_3_1.png",
+			"previewPath":"1_3_1.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"1幕4場",
 			"madiaPath": "0_0.png",
 			"previewPath":"0_0.png",
 			"fadeDuration": 4000,
@@ -29,6 +81,7 @@
 			"followText" : "TEST"
 		},
 		{
+			"sceneName":"1幕3場",
 			"madiaPath": "",
 			"previewPath":"",
 			"fadeDuration": 4000,
@@ -36,6 +89,23 @@
 			"followText" : "TEST"
 		},
 		{
+			"sceneName":"1幕5場",
+			"madiaPath": "1_5_1_2.png",
+			"previewPath":"1_5_1_2.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"1幕5場",
+			"madiaPath": "1_5_2.png",
+			"previewPath":"1_5_2.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"1幕6場",
 			"madiaPath": "",
 			"previewPath":"",
 			"fadeDuration": 4000,
@@ -43,6 +113,119 @@
 			"followText" : "TEST"
 		},
 		{
+			"sceneName":"1幕6場",
+			"madiaPath": "1_6_1_1.png",
+			"previewPath":"1_6_1_1.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"1幕6場",
+			"madiaPath": "1_6_1_2.png",
+			"previewPath":"1_6_1_2.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"1幕6場",
+			"madiaPath": "1_6_1_3.png",
+			"previewPath":"1_6_1_3.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"1幕6場",
+			"madiaPath": "1_6_1_4.png",
+			"previewPath":"1_6_1_4.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"1幕7場",
+			"madiaPath": "1_7_1.png",
+			"previewPath":"1_7_1.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"1幕8場",
+			"madiaPath": "1_8_1.png",
+			"previewPath":"1_8_1.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"1幕9場",
+			"madiaPath": "1_5_2.png",
+			"previewPath":"1_5_2.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"1幕10場",
+			"madiaPath": "1_10_9.png",
+			"previewPath":"1_10_9.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"1幕10場",
+			"madiaPath": "1_5_2.png",
+			"previewPath":"1_5_2.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"1幕11場",
+			"madiaPath": "1_2_1_1.png",
+			"previewPath":"1_2_1_1.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"2幕1場",
+			"madiaPath": "1_8_1.png",
+			"previewPath":"1_8_1.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"2幕1場",
+			"madiaPath": "2_1_2.png",
+			"previewPath":"2_1_2.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"2幕1場",
+			"madiaPath": "2_1_3.png",
+			"previewPath":"2_1_3.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"2幕1場",
+			"madiaPath": "2_1_4.png",
+			"previewPath":"2_1_4.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"2幕1場",
 			"madiaPath": "",
 			"previewPath":"",
 			"fadeDuration": 4000,
@@ -50,6 +233,39 @@
 			"followText" : "TEST"
 		},
 		{
+			"sceneName":"2幕2場",
+			"madiaPath": "1_2_3_8.png",
+			"previewPath":"1_2_3_8.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"2幕3場",
+			"madiaPath": "2_3_1.png",
+			"previewPath":"2_3_1.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"2幕4場",
+			"madiaPath": "1_5_2.png",
+			"previewPath":"1_5_2.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"2幕5場",
+			"madiaPath": "2_5_1.png",
+			"previewPath":"2_5_1.png",
+			"fadeDuration": 4000,
+			"blurSwitch" : -1,
+			"followText" : "TEST"
+		},
+		{
+			"sceneName":"2幕6場",
 			"madiaPath": "",
 			"previewPath":"",
 			"fadeDuration": 4000,
@@ -57,211 +273,49 @@
 			"followText" : "TEST"
 		},
 		{
-			"madiaPath": "",
-			"previewPath":"",
+			"sceneName":"2幕6場",
+			"madiaPath": "2_6_1.png",
+			"previewPath":"2_6_1.png",
 			"fadeDuration": 4000,
 			"blurSwitch" : -1,
 			"followText" : "TEST"
 		},
 		{
-			"madiaPath": "",
-			"previewPath":"",
+			"sceneName":"2幕6場",
+			"madiaPath": "2_6_2.png",
+			"previewPath":"2_6_2.png",
 			"fadeDuration": 4000,
 			"blurSwitch" : -1,
 			"followText" : "TEST"
 		},
 		{
-			"madiaPath": "",
-			"previewPath":"",
+			"sceneName":"2幕6場",
+			"madiaPath": "2_6_3.png",
+			"previewPath":"2_6_3.png",
 			"fadeDuration": 4000,
 			"blurSwitch" : -1,
 			"followText" : "TEST"
 		},
 		{
-			"madiaPath": "",
-			"previewPath":"",
+			"sceneName":"2幕7場",
+			"madiaPath": "2_7_2.png",
+			"previewPath":"2_7_2.png",
 			"fadeDuration": 4000,
 			"blurSwitch" : -1,
 			"followText" : "TEST"
 		},
 		{
-			"madiaPath": "",
-			"previewPath":"",
+			"sceneName":"2幕7場",
+			"madiaPath": "2_7_3.png",
+			"previewPath":"2_7_3.png",
 			"fadeDuration": 4000,
 			"blurSwitch" : -1,
 			"followText" : "TEST"
 		},
 		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
-			"fadeDuration": 4000,
-			"blurSwitch" : -1,
-			"followText" : "TEST"
-		},
-		{
-			"madiaPath": "",
-			"previewPath":"",
+			"sceneName":"2幕7場",
+			"madiaPath": "2_7_4.png",
+			"previewPath":"2_7_4.png",
 			"fadeDuration": 4000,
 			"blurSwitch" : -1,
 			"followText" : "TEST"
