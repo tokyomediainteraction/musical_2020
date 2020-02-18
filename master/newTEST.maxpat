@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 190.0, 285.0, 1005.0, 480.0 ],
+		"rect" : [ 185.0, 159.0, 925.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -312,7 +312,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 198.0, 364.0, 328.0, 35.0 ],
-					"text" : "/mediaPath \"Macintosh HD:/Users/Kairi/TMI/2020/musical_2020/media/img/310.jpg\""
+					"text" : "/mediaPath \"Macintosh HD:/Users/Kairi/TMI/2020/musical_2020/media/img/153.jpg\""
 				}
 
 			}
