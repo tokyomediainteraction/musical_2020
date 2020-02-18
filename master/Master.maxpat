@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 234.0, 91.0, 1391.0, 1028.0 ],
+		"rect" : [ 75.0, 245.0, 1391.0, 1028.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,27 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-8",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "textswitch.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 810.0, 160.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 681.0, 117.0, 233.0, 169.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
@@ -180,19 +201,19 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-13" : [ "live.dial[2]", "SCNE", 0 ],
 			"obj-5::obj-13" : [ "live.dial", "SCNE", 0 ],
+			"obj-1::obj-13" : [ "live.dial[2]", "SCNE", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-13" : 				{
-					"parameter_longname" : "live.dial[2]"
-				}
-,
 				"obj-5::obj-13" : 				{
 					"parameter_longname" : "live.dial"
+				}
+,
+				"obj-1::obj-13" : 				{
+					"parameter_longname" : "live.dial[2]"
 				}
 
 			}
@@ -246,6 +267,13 @@
 				"bootpath" : "~/Desktop/git_all/2020_musical/master",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "textswitch.maxpat",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
