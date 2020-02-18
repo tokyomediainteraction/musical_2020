@@ -80,6 +80,7 @@ TouchDesigner（Kairi）
   - フェードインアウトをEase IN&OUT化
   - fadeDuration実装（受ける値は1s辺りの増加量）
   - blurSwitch実装（ブラーをFade IN&OUT）
+  - movieFileInにTriggerで毎回頭出し
 - blurTest2.toe
   - ブラー位置と字幕位置（仮）をスライダーで変更可能（数値でも制御可能）
 
@@ -92,6 +93,7 @@ Max（Kairi）
 - newTEST.maxpat
   - fadeDuration実装
   - blurSwitch実装
+  - 各position実装
 
 #### 課題
 

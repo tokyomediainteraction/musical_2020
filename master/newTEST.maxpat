@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 241.0, 644.0, 1173.0, 311.0 ],
+		"rect" : [ 214.0, 719.0, 1173.0, 311.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -307,7 +307,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-20",
-					"items" : [ "0_0.png", ",", "1_0.mov", ",", "1_0.png", ",", "1_1.mov", ",", "1_1.png", ",", "1_10_9.png", ",", "1_2_1_1.png", ",", "1_2_2_4.png", ",", "1_2_3_8.png", ",", "1_3_1.png", ",", "1_5_1_2.png", ",", "1_5_2.png", ",", "1_6_1_1.png", ",", "1_6_1_2.png", ",", "1_6_1_3.png", ",", "1_6_1_4.png", ",", "1_7_1.png", ",", "1_8_1.png", ",", "2_1_2.png", ",", "2_1_3.png", ",", "2_1_4.png", ",", "2_2_5.png", ",", "2_5_1.png", ",", "2_6_1.png", ",", "2_6_2.png", ",", "2_6_3.png", ",", "2_7_2.png", ",", "2_7_3.png", ",", "2_7_4.png" ],
+					"items" : [ "0_0.png", ",", "1_0.mov", ",", "1_0.png", ",", "1_1.mov", ",", "1_1.png", ",", "1_10_9.png", ",", "1_2_1_1.png", ",", "1_2_2_4.png", ",", "1_2_3_8.png", ",", "1_3_1.png", ",", "1_5_1_2.png", ",", "1_5_2.png", ",", "1_6_1_1.png", ",", "1_6_1_2.png", ",", "1_6_1_3.png", ",", "1_6_1_4.png", ",", "1_7_1.png", ",", "1_8_1.png", ",", "2_1_2.png", ",", "2_1_3.png", ",", "2_1_4.png", ",", "2_3_1.png", ",", "2_5_1.png", ",", "2_6_1.png", ",", "2_6_2.png", ",", "2_6_3.png", ",", "2_7_2.png", ",", "2_7_3.png", ",", "2_7_4.png" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -372,8 +372,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 333.0, 87.0, 157.0, 22.0 ],
-					"text" : "combine path-input ../media"
+					"patching_rect" : [ 333.0, 87.0, 153.0, 22.0 ],
+					"text" : "combine path-input ./media"
 				}
 
 			}
@@ -410,7 +410,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
 					"patching_rect" : [ 14.0, 159.0, 85.0, 22.0 ],
-					"text" : "counter 0 0 20"
+					"text" : "counter 0 20 0"
 				}
 
 			}
@@ -429,13 +429,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 198.0, 364.0, 328.0, 35.0 ],
-					"text" : "/mediaPath \"Macintosh HD:/Users/Kairi/TMI/2020/musical_2020/media/0_0.png\""
+					"patching_rect" : [ 198.0, 381.0, 328.0, 49.0 ],
+					"text" : "/mediaPath \"Macintosh HD:/Users/Kairi/TMI/2020/musical_2020/master/media/1_10_9.png\""
 				}
 
 			}
