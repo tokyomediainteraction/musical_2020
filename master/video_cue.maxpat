@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 553.5, 196.0, 87.0, 22.0 ],
+					"text" : "r video_reflesh"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-65",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1100,10 +1112,10 @@
 					"presentation_rect" : [ -0.5, 3.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "SCNE",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.dial"
+							"parameter_longname" : "live.dial",
+							"parameter_shortname" : "SCNE"
 						}
 
 					}
@@ -3679,6 +3691,13 @@
 					"destination" : [ "obj-48", 0 ],
 					"midpoints" : [ 742.500000000000114, 853.0, 795.000000000000227, 853.0, 795.000000000000227, 810.0, 533.500000000000114, 810.0 ],
 					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}

@@ -47,7 +47,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 128.5, 417.0, 167.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 88.0, 112.0, 22.0 ],
+					"presentation_rect" : [ 3.0, 100.0, 112.0, 22.0 ],
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -1084,18 +1084,18 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Futura Medium",
-					"fontsize" : 36.0,
+					"fontsize" : 30.0,
 					"id" : "obj-34",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 175.5, 343.0, 209.0, 53.0 ],
+					"patching_rect" : [ 175.5, 343.0, 176.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 117.0, 57.0, 245.0, 53.0 ],
-					"text" : "Connecting",
-					"textcolor" : [ 0.0, 0.0, 1.0, 0.08 ],
+					"presentation_rect" : [ 117.0, 77.0, 245.0, 45.0 ],
+					"text" : "Disconnect",
+					"textcolor" : [ 1.0, 1.0, 0.0, 0.0 ],
 					"textjustification" : 1
 				}
 
@@ -1128,7 +1128,7 @@
 				"box" : 				{
 					"fontname" : "Futura Medium",
 					"id" : "obj-6",
-					"items" : [ "nanoPAD2 PAD", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1136,7 +1136,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 7.0, 307.0, 134.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 57.0, 112.0, 24.0 ]
+					"presentation_rect" : [ 3.0, 77.0, 112.0, 24.0 ]
 				}
 
 			}

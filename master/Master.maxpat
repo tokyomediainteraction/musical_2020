@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 674.0, 402.0, 1145.0, 762.0 ],
+		"rect" : [ 79.0, 471.0, 1146.0, 720.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,52 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 641.0, 18.0, 75.0, 22.0 ],
+					"text" : "r thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 641.0, 96.0, 67.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-10",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "initialize.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 770.0, 56.0, 284.0, 102.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 628.0, 6.0, 286.0, 109.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -51,7 +97,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 810.0, 160.0, 128.0, 128.0 ],
+					"patching_rect" : [ 973.0, 160.0, 239.0, 176.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 681.0, 117.0, 233.0, 169.0 ],
 					"viewvisibility" : 1
@@ -199,21 +245,28 @@
 
 			}
  ],
-		"lines" : [  ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+ ],
 		"parameters" : 		{
-			"obj-5::obj-13" : [ "live.dial", "SCNE", 0 ],
 			"obj-1::obj-13" : [ "live.dial[2]", "SCNE", 0 ],
+			"obj-5::obj-13" : [ "live.dial", "SCNE", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-5::obj-13" : 				{
-					"parameter_longname" : "live.dial"
-				}
-,
 				"obj-1::obj-13" : 				{
 					"parameter_longname" : "live.dial[2]"
+				}
+,
+				"obj-5::obj-13" : 				{
+					"parameter_longname" : "live.dial"
 				}
 
 			}
@@ -249,14 +302,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "0_0.png",
+				"name" : "1_0.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/master/media",
 				"patcherrelativepath" : "./media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "1_1.png",
+				"name" : "0_0.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/master/media",
 				"patcherrelativepath" : "./media",
 				"type" : "PNG",
@@ -285,6 +338,13 @@
 			}
 , 			{
 				"name" : "textswitch.maxpat",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "initialize.maxpat",
 				"bootpath" : "~/Desktop/git_all/2020_musical/master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

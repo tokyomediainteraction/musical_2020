@@ -100,7 +100,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 1, 0, 0, 1 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1 ],
 					"bordercolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 0.0 ],
 					"id" : "obj-29",
 					"maxclass" : "panel",
@@ -109,7 +109,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 376.0, 713.0, 148.0, 148.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 77.5, 47.0, 45.0 ],
+					"presentation_rect" : [ 48.0, 96.5, 47.0, 45.0 ],
 					"proportion" : 0.5,
 					"rounded" : 500
 				}
@@ -154,7 +154,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0, 1, 0, 1 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1 ],
 					"bordercolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 0.0 ],
 					"id" : "obj-20",
 					"maxclass" : "panel",
@@ -163,7 +163,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 220.0, 713.0, 148.0, 148.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 77.5, 47.0, 45.0 ],
+					"presentation_rect" : [ -1.0, 96.5, 47.0, 45.0 ],
 					"proportion" : 0.5,
 					"rounded" : 500
 				}
@@ -281,6 +281,7 @@
 					"patching_rect" : [ 164.0, 173.0, 380.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.0, 53.5, 359.0, 22.0 ],
+					"text" : "arduinoを接続してからアプリケーションを起動してください",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -1912,7 +1913,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Futura Medium",
 					"fontsize" : 30.0,
 					"id" : "obj-21",
@@ -1921,9 +1922,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 209.0, 124.0, 175.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 98.0, 77.5, 260.0, 45.0 ],
-					"text" : "Connecting",
-					"textcolor" : [ 0.0, 0.0, 1.0, 0.0 ],
+					"presentation_rect" : [ 98.0, 96.5, 260.0, 45.0 ],
+					"text" : "Disconnect",
+					"textcolor" : [ 1.0, 1.0, 0.0, 0.0 ],
 					"textjustification" : 1
 				}
 
