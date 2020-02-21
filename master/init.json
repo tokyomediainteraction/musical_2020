@@ -6,8 +6,7 @@
       "text_reflesh":"bang",
       "text_scene": 0,
       "able_key_control": 1,
-      "polling": 1,
-      "thispatcher": "front"
+      "polling": 1
     },
     "td":{
 

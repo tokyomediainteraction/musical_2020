@@ -70,7 +70,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 26.0, 445.0, 50.0, 35.0 ],
-					"text" : "scene[3]"
+					"text" : "scene[1]"
 				}
 
 			}
@@ -119,7 +119,7 @@
 					"patching_rect" : [ 597.0, 983.0, 192.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 269.919525994194885, 298.74138331413269, 184.0, 21.0 ],
-					"text" : "1幕1場",
+					"text" : "opning",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -135,7 +135,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 415.222222222222229, 983.0, 177.777777777777771, 100.0 ],
-					"pic" : "Macintosh HD:/Users/miyamototakashi/Desktop/git_all/2020_musical/master/media/1_1.png",
+					"pic" : "Macintosh HD:/Users/miyamototakashi/Desktop/git_all/2020_musical/master/media/1_0.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 269.919525994194885, 321.74138331413269, 184.0, 103.5 ]
 				}
@@ -399,7 +399,7 @@
 					"patching_rect" : [ 157.0, 968.0, 192.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 266.634088940090635, 99.0, 187.214562945895636, 21.0 ],
-					"text" : "1幕1場",
+					"text" : "init",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -466,7 +466,20 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 437.333333333333314, 158.0, 29.5, 22.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-25",
 									"maxclass" : "newobj",
@@ -762,6 +775,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
 									"source" : [ "obj-15", 1 ]
 								}
@@ -899,6 +919,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
 									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-6", 0 ]
 								}
 
 							}
@@ -1112,10 +1139,10 @@
 					"presentation_rect" : [ -0.5, 3.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "SCNE",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.dial",
-							"parameter_shortname" : "SCNE"
+							"parameter_longname" : "live.dial"
 						}
 
 					}
@@ -1934,7 +1961,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 91.0, 227.74138331413269, 307.0, 22.0 ],
 					"rounded" : 1.0,
-					"text" : "1幕1場"
+					"text" : "init"
 				}
 
 			}
@@ -2718,7 +2745,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 66.0, 427.74138331413269, 333.0, 22.0 ],
 					"rounded" : 1.0,
-					"text" : "1幕1場"
+					"text" : "opning"
 				}
 
 			}
@@ -2769,7 +2796,7 @@
 					"patching_rect" : [ 886.0, 551.0, 218.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.5, 251.74138331413269, 454.848651885986328, 45.0 ],
-					"text" : "NEXT: scene[3]",
+					"text" : "NEXT: scene[1]",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -2785,7 +2812,7 @@
 					"patching_rect" : [ 886.0, 467.0, 225.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.5, 52.0, 454.848651885986328, 45.0 ],
-					"text" : "NOW: scene[2]",
+					"text" : "NOW: scene[0]",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -3911,6 +3938,30 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-13" : [ "live.dial", "SCNE", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "0_0.png",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master/media",
+				"patcherrelativepath" : "./media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "1_0.png",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master/media",
+				"patcherrelativepath" : "./media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.243137, 0.243137, 0.243137, 1.0 ],
 		"editing_bgcolor" : [ 0.243137, 0.243137, 0.243137, 1.0 ]
 	}
