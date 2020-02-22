@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 76.0, 504.0, 1146.0, 720.0 ],
+		"rect" : [ 89.0, 271.0, 1250.0, 744.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -254,19 +254,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-13" : [ "live.dial", "SCNE", 0 ],
 			"obj-1::obj-13" : [ "live.dial[2]", "SCNE", 0 ],
+			"obj-5::obj-13" : [ "live.dial", "SCNE", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-5::obj-13" : 				{
-					"parameter_longname" : "live.dial"
-				}
-,
 				"obj-1::obj-13" : 				{
 					"parameter_longname" : "live.dial[2]"
+				}
+,
+				"obj-5::obj-13" : 				{
+					"parameter_longname" : "live.dial"
 				}
 
 			}

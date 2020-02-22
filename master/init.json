@@ -2,11 +2,11 @@
   "init":{
     "max":{
       "video_reflesh":"bang",
-      "video_scene": 0,
       "text_reflesh":"bang",
-      "text_scene": 0,
       "able_key_control": 1,
-      "polling": 1
+      "polling": 1,
+      "set_video_scene_number": 0,
+      "text_scene": 0
     },
     "td":{
 
