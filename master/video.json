@@ -5,7 +5,7 @@
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "TEST"
+			"followText" : "拍手 M1始まり"
 		}
 , 		{
 			"sceneName" : "opning",
@@ -13,7 +13,7 @@
 			"previewPath" : "1_0.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "TESTTEST"
+			"followText" : "遠くから修道院の鐘の音(SE) マリアは慌てて退場"
 		}
 , 		{
 			"sceneName" : "1幕1場",
@@ -21,7 +21,7 @@
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "TEST"
+			"followText" : "すぐ"
 		}
 , 		{
 			"sceneName" : "1幕1場",
@@ -29,7 +29,7 @@
 			"previewPath" : "1_1.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "TESTTESTTEST"
+			"followText" : "修道女達登場"
 		}
 , 		{
 			"sceneName" : "1幕1場",
@@ -37,7 +37,7 @@
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "TEST"
+			"followText" : "鐘の音"
 		}
 , 		{
 			"sceneName" : "1幕2場",
@@ -45,7 +45,7 @@
 			"previewPath" : "1_2_1_1.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "TEST"
+			"followText" : "M3Bが始まる前"
 		}
 , 		{
 			"sceneName" : "1幕2場",
@@ -53,7 +53,7 @@
 			"previewPath" : "1_2_2_4.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "TEST"
+			"followText" : "M3Cが始まる前"
 		}
 , 		{
 			"sceneName" : "1幕2場",
@@ -61,7 +61,7 @@
 			"previewPath" : "1_2_3_8.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "TEST"
+			"followText" : "3人が舞台前に止まる時"
 		}
 , 		{
 			"sceneName" : "1幕3場",
@@ -69,7 +69,7 @@
 			"previewPath" : "1_3_1.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "TEST"
+			"followText" : "5人の修道女退場 ベルテ下手退場"
 		}
 , 		{
 			"sceneName" : "1幕4場",
@@ -77,7 +77,7 @@
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "TEST"
+			"followText" : "転換が完了したら"
 		}
 , 		{
 			"sceneName" : "1幕5場",
@@ -85,7 +85,7 @@
 			"previewPath" : "1_5_1_2.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "TEST"
+			"followText" : "M617小節目から"
 		}
 , 		{
 			"sceneName" : "1幕5場",
@@ -93,7 +93,7 @@
 			"previewPath" : "1_5_2.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "TEST"
+			"followText" : "転換が完了したら"
 		}
 , 		{
 			"sceneName" : "1幕6場",
@@ -125,7 +125,7 @@
 			"previewPath" : "1_6_1_4.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "TEST"
+			"followText" : "M10ラストのフェルマータで照明IN"
 		}
 , 		{
 			"sceneName" : "1幕7場",
@@ -133,8 +133,16 @@
 			"previewPath" : "1_7_1.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "TEST"
+			"followText" : "転換はじめ"
 		}
+, 		{
+			"sceneName" : "1幕8場",
+			"mediaPath" : "0_0.png",
+			"previewPath" : "0_0.png",
+			"fadeDuration" : 4000,
+			"blurSwitch" : 0,
+			"followText" : "転換完了"
+		}		
 , 		{
 			"sceneName" : "1幕8場",
 			"mediaPath" : "1_8_1.png",
