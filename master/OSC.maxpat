@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 427.0, 78.0, 980.0, 922.0 ],
+		"rect" : [ 427.0, 79.0, 980.0, 922.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -353,7 +353,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 14.0, 603.0, 82.0, 22.0 ],
-					"text" : "Connecting"
+					"text" : "Disconnect"
 				}
 
 			}
@@ -361,7 +361,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-51",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -617,7 +617,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Futura Medium",
 					"fontsize" : 30.0,
 					"id" : "obj-21",
@@ -627,8 +627,8 @@
 					"patching_rect" : [ 14.0, 708.0, 175.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 111.0, 55.5, 211.0, 45.0 ],
-					"text" : "Connecting",
-					"textcolor" : [ 0.0, 0.0, 1.0, 0.0 ],
+					"text" : "Disconnect",
+					"textcolor" : [ 1.0, 1.0, 0.0, 0.04 ],
 					"textjustification" : 1
 				}
 
@@ -706,7 +706,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -718,7 +718,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1083,6 +1083,8 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.243137, 0.243137, 0.243137, 1.0 ],
 		"editing_bgcolor" : [ 0.243137, 0.243137, 0.243137, 1.0 ]
 	}

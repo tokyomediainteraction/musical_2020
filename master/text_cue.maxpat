@@ -64,11 +64,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-38",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.0, 440.0, 50.0, 22.0 ]
+					"patching_rect" : [ 31.0, 440.0, 50.0, 35.0 ],
+					"text" : "scene[1]"
 				}
 
 			}
@@ -218,10 +220,10 @@
 					"presentation_rect" : [ -1.5, 2.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "SCNE",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.dial[2]",
-							"parameter_shortname" : "SCNE"
+							"parameter_longname" : "live.dial[2]"
 						}
 
 					}
@@ -2927,6 +2929,16 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-13" : [ "live.dial[2]", "SCNE", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.243137, 0.243137, 0.243137, 1.0 ],
 		"editing_bgcolor" : [ 0.243137, 0.243137, 0.243137, 1.0 ]
 	}
