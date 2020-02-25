@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 327.0, 126.0, 1198.0, 1120.0 ],
+		"rect" : [ 75.0, 511.0, 1250.0, 718.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1463,10 +1463,10 @@
 					"presentation_rect" : [ -0.5, 3.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial",
 							"parameter_shortname" : "SCNE",
 							"parameter_type" : 1,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 0,
+							"parameter_longname" : "live.dial"
 						}
 
 					}
@@ -1488,7 +1488,7 @@
 					"patching_rect" : [ 127.5, 1110.0, 192.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 455.848651885986328, 99.0, 217.0, 21.0 ],
-					"text" : "TEST",
+					"text" : "拍手 M1始まり",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 

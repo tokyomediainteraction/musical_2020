@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 74.0, 485.0, 1250.0, 744.0 ],
+		"rect" : [ 75.0, 485.0, 1250.0, 744.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -141,7 +141,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 461.0, 226.0, 459.0, 440.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 681.0, 288.0, 492.0, 392.0 ],
+					"presentation_rect" : [ 681.0, 288.0, 492.0, 330.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -320,6 +320,20 @@
 				"bootpath" : "~/Desktop/git_all/2020_musical/master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M1_2.png",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
+				"patcherrelativepath" : "./text",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M1_3.png",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
+				"patcherrelativepath" : "./text",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
