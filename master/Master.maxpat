@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 75.0, 485.0, 1250.0, 744.0 ],
+		"rect" : [ 75.0, 305.0, 1274.0, 727.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -78,7 +78,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 770.0, 56.0, 284.0, 102.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 628.0, 6.0, 286.0, 109.0 ],
+					"presentation_rect" : [ 918.0, 101.0, 328.0, 169.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -99,7 +99,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 973.0, 160.0, 239.0, 176.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 681.0, 117.0, 233.0, 169.0 ],
+					"presentation_rect" : [ 683.0, 101.0, 233.0, 169.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -120,7 +120,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 327.0, 117.0, 299.0, 107.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 329.0, 117.0, 350.0, 169.0 ],
+					"presentation_rect" : [ 331.0, 101.0, 350.0, 169.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -141,7 +141,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 461.0, 226.0, 459.0, 440.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 681.0, 288.0, 492.0, 330.0 ],
+					"presentation_rect" : [ 683.0, 273.0, 563.0, 330.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -162,7 +162,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1.0, 226.0, 458.0, 440.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.0, 289.0, 678.0, 458.0 ],
+					"presentation_rect" : [ 3.0, 273.0, 678.0, 458.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -183,7 +183,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1.0, 117.0, 324.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 229.0, 324.0, 57.0 ],
+					"presentation_rect" : [ 3.0, 214.0, 324.0, 57.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -205,7 +205,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1.0, 168.0, 324.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 117.0, 324.0, 110.0 ],
+					"presentation_rect" : [ 3.0, 101.0, 324.0, 110.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -213,32 +213,35 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Futura Medium",
-					"fontsize" : 12.0,
+					"fontsize" : 30.0,
 					"id" : "obj-3",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 77.0, 206.0, 38.0 ],
+					"patching_rect" : [ 1.0, 77.0, 502.0, 84.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1.0, 77.0, 206.0, 38.0 ],
+					"presentation_rect" : [ 683.0, 605.0, 563.0, 84.0 ],
 					"text" : "Created by Tokyo Media Interaction\nmediainteraction.tokyo",
-					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"textjustification" : 2
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : 2,
 					"fontname" : "Futura Medium",
-					"fontsize" : 48.0,
+					"fontsize" : 72.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 6.0, 625.0, 69.0 ],
+					"patching_rect" : [ 1.0, 6.0, 915.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 6.0, 625.0, 69.0 ],
+					"presentation_rect" : [ 3.0, -1.0, 1243.0, 100.0 ],
 					"text" : "MUSICAL CUEING SYSTEM",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -254,19 +257,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-13" : [ "live.dial[2]", "SCNE", 0 ],
 			"obj-5::obj-13" : [ "live.dial", "SCNE", 0 ],
+			"obj-1::obj-13" : [ "live.dial[2]", "SCNE", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-13" : 				{
-					"parameter_longname" : "live.dial[2]"
-				}
-,
 				"obj-5::obj-13" : 				{
 					"parameter_longname" : "live.dial"
+				}
+,
+				"obj-1::obj-13" : 				{
+					"parameter_longname" : "live.dial[2]"
 				}
 
 			}
@@ -323,14 +326,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "M1_2.png",
+				"name" : "clear.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
 				"patcherrelativepath" : "./text",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "M1_3.png",
+				"name" : "M1_1.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
 				"patcherrelativepath" : "./text",
 				"type" : "PNG",
