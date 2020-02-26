@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 75.0, 305.0, 1274.0, 727.0 ],
+		"rect" : [ 75.0, 304.0, 1249.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,8 +29,8 @@
 		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablehscroll" : 0,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -257,19 +257,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-13" : [ "live.dial", "SCNE", 0 ],
 			"obj-1::obj-13" : [ "live.dial[2]", "SCNE", 0 ],
+			"obj-5::obj-13" : [ "live.dial", "SCNE", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-5::obj-13" : 				{
-					"parameter_longname" : "live.dial"
-				}
-,
 				"obj-1::obj-13" : 				{
 					"parameter_longname" : "live.dial[2]"
+				}
+,
+				"obj-5::obj-13" : 				{
+					"parameter_longname" : "live.dial"
 				}
 
 			}
@@ -326,14 +326,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "M1_2.png",
+				"name" : "M1_1.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
 				"patcherrelativepath" : "./text",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "M1_3.png",
+				"name" : "M1_2.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
 				"patcherrelativepath" : "./text",
 				"type" : "PNG",
@@ -369,8 +369,8 @@
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.243137, 0.243137, 0.243137, 1.0 ],
-		"editing_bgcolor" : [ 0.243137, 0.243137, 0.243137, 1.0 ]
+		"bgcolor" : [ 0.094117647058824, 0.094117647058824, 0.094117647058824, 1.0 ],
+		"editing_bgcolor" : [ 0.094117647058824, 0.094117647058824, 0.094117647058824, 1.0 ]
 	}
 
 }
