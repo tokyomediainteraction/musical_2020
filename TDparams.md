@@ -10,7 +10,7 @@
 - blurSwitch：-1 or 1
   - -1でフェードアウト
   - 1でフェードイン
-- subTitlePositionY：-400~0（ピクセル）
+- ttextPositionY：-400~0（ピクセル）
   - 0で行の中心が画面中央
   - -360で行の中心が画面最下部（上半分だけ見えている）
 - blurPositionY：-400~0（ピクセル）

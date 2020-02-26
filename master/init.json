@@ -9,7 +9,9 @@
       "text_scene": 0
     },
     "td":{
-      "textFadeDuration": 10
+      "textFadeDuration": 10,
+      "textPositionY": -280,
+      "blurPositionY": -280
     }
   }
 }
