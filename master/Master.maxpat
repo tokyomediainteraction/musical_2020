@@ -200,9 +200,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "OSC.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 1,
+					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1.0, 168.0, 324.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 101.0, 324.0, 110.0 ],
@@ -326,14 +326,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "clear.png",
+				"name" : "M1_4.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
 				"patcherrelativepath" : "./text",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "M1_1.png",
+				"name" : "M1_5.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
 				"patcherrelativepath" : "./text",
 				"type" : "PNG",
