@@ -161,7 +161,7 @@
 					"patching_rect" : [ 1256.0, 15.0, 151.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 507.0, 5.0, 272.0, 27.0 ],
-					"text" : "Created by Tokyo MEdia Interaction",
+					"text" : "Created by Tokyo Media Interaction",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1870,7 +1870,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 587.0, 224.0, 211.0, 45.0 ],
 					"text" : "Disconnect",
-					"textcolor" : [ 1.0, 1.0, 0.0, 0.08 ],
+					"textcolor" : [ 1.0, 1.0, 0.0, 0.5776 ],
 					"textjustification" : 1
 				}
 
@@ -1888,7 +1888,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 374.0, 224.0, 211.0, 45.0 ],
 					"text" : "Disconnect",
-					"textcolor" : [ 1.0, 1.0, 0.0, 0.08 ],
+					"textcolor" : [ 1.0, 1.0, 0.0, 0.5776 ],
 					"textjustification" : 1
 				}
 
@@ -2055,7 +2055,7 @@
 					"patching_rect" : [ 124.83333300000001, 239.0, 191.0, 69.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 488.0, 36.0, 310.0, 69.0 ],
-					"text" : "next",
+					"text" : "init",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -2259,7 +2259,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "M1_3.png",
+				"name" : "M3a_1.png",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
+				"patcherrelativepath" : "./text",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M3a_2.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
 				"patcherrelativepath" : "./text",
 				"type" : "PNG",
