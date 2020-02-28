@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 75.0, 79.0, 1669.0, 291.0 ],
+		"rect" : [ 75.0, 79.0, 1662.0, 287.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 30.5, 54.0, 22.0 ],
+					"patching_rect" : [ 9.0, 72.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -56,20 +56,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 10.0, 100.0, 22.0, 22.0 ],
+					"patching_rect" : [ 9.0, 102.0, 22.0, 22.0 ],
 					"text" : "t 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 9.0, 59.0, 55.0, 22.0 ],
-					"text" : "del 3000"
 				}
 
 			}
@@ -575,7 +563,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 9.0, 0.5, 58.0, 22.0 ],
+					"patching_rect" : [ 9.0, 42.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1584,7 +1572,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 593.5, 459.0, 50.0, 35.0 ],
-									"text" : "Connecting"
+									"text" : "Disconnect"
 								}
 
 							}
@@ -1668,7 +1656,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 565.5, 198.5, 104.0, 22.0 ],
+									"patching_rect" : [ 563.5, 375.5, 104.0, 22.0 ],
 									"text" : "udpreceive 56789"
 								}
 
@@ -2264,7 +2252,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Futura Medium",
 					"fontsize" : 30.0,
 					"id" : "obj-73",
@@ -2274,8 +2262,8 @@
 					"patching_rect" : [ 1056.5, 259.0, 175.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 587.0, 230.234375, 211.0, 45.0 ],
-					"text" : "Connecting",
-					"textcolor" : [ 0.0, 0.0, 1.0, 0.72 ],
+					"text" : "Disconnect",
+					"textcolor" : [ 1.0, 1.0, 0.0, 0.0 ],
 					"textjustification" : 1
 				}
 
@@ -2293,7 +2281,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 374.0, 230.234375, 211.0, 45.0 ],
 					"text" : "Disconnect",
-					"textcolor" : [ 1.0, 1.0, 0.0, 0.72 ],
+					"textcolor" : [ 1.0, 1.0, 0.0, 0.0 ],
 					"textjustification" : 1
 				}
 
@@ -2518,13 +2506,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
