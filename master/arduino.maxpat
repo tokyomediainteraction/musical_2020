@@ -1936,7 +1936,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 119.0, 61.0, 76.0, 22.0 ],
+					"patching_rect" : [ 119.0, 39.0, 76.0, 22.0 ],
 					"text" : "r TDMpolling"
 				}
 

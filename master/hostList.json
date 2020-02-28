@@ -1,5 +1,5 @@
 {
-  "sender": "localhost",
-  "receiver1":"takashi-mbp.local",
-  "receiver2":"localhost"
+  "sender": "takashi-mbp.local",
+  "receiver1":"Kairi.local",
+  "receiver2":"takashi-mbp.local"
 }

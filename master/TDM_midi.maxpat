@@ -1065,7 +1065,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 170.5, 76.0, 22.0 ],
+					"patching_rect" : [ 41.5, 170.5, 76.0, 22.0 ],
 					"text" : "r TDMpolling"
 				}
 
