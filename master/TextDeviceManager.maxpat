@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 75.0, 79.0, 1914.0, 814.0 ],
+		"rect" : [ 75.0, 79.0, 1669.0, 291.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,42 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 9.0, 30.5, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 10.0, 100.0, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 9.0, 59.0, 55.0, 22.0 ],
+					"text" : "del 3000"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
@@ -398,7 +434,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1167.5, 379.4375, 174.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 800.0, 171.0, 174.0, 84.0 ],
+					"presentation_rect" : [ 800.0, 174.234375, 174.0, 84.0 ],
 					"text" : "NEXT",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
@@ -424,31 +460,33 @@
 			}
 , 			{
 				"box" : 				{
+					"autofit" : 1,
+					"forceaspect" : 1,
 					"id" : "obj-42",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1364.5, 379.4375, 378.0, 35.4375 ],
-					"pic" : "Macintosh HD:/Users/miyamototakashi/Desktop/git_all/2020_musical/master/text/Macintosh HD:/Users/miyamototakashi/Desktop/git_all/2020_musical/master/text/M1_6.png",
+					"pic" : "Macintosh HD:/Users/miyamototakashi/Desktop/git_all/2020_musical/master/text/M3a_5.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 976.0, 153.765625, 674.66666666666697, 118.46875 ],
-					"xoffset" : -300.0
+					"presentation_rect" : [ 976.0, 184.421875, 678.66666666666697, 63.625000000000028 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"autofit" : 1,
+					"forceaspect" : 1,
 					"id" : "obj-22",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1277.5, 326.0, 378.0, 35.4375 ],
-					"pic" : "Macintosh HD:/Users/miyamototakashi/Desktop/git_all/2020_musical/master/text/Macintosh HD:/Users/miyamototakashi/Desktop/git_all/2020_musical/master/text/M1_5.png",
+					"pic" : "Macintosh HD:/Users/miyamototakashi/Desktop/git_all/2020_musical/master/text/M3a_4.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 976.0, 3.765625, 674.66666666666697, 118.46875 ],
-					"xoffset" : -300.0
+					"presentation_rect" : [ 976.0, 27.421874999999986, 678.66666666666697, 63.625000000000028 ]
 				}
 
 			}
@@ -536,9 +574,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 0.5, 70.0, 22.0 ],
-					"text" : "loadmess 1"
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 9.0, 0.5, 58.0, 22.0 ],
+					"text" : "loadbang"
 				}
 
 			}
@@ -559,7 +597,7 @@
 					"outlettype" : [ "next" ],
 					"patching_rect" : [ 496.0, 9.0, 384.0, 148.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 5.0, 366.0, 140.0 ],
+					"presentation_rect" : [ 6.0, 5.0, 366.0, 148.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -570,7 +608,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 179.0, 67.0, 22.0 ],
+					"patching_rect" : [ 9.0, 257.0, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "",
@@ -828,7 +866,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 356.0, 447.0, 1432.0, 909.0 ],
+						"rect" : [ 302.0, 141.0, 1432.0, 909.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1546,7 +1584,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 593.5, 459.0, 50.0, 35.0 ],
-									"text" : "Disconnect"
+									"text" : "Connecting"
 								}
 
 							}
@@ -1560,18 +1598,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 532.5, 459.0, 50.0, 35.0 ],
 									"text" : "Disconnect"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-62",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 50.0, 140.5, 48.0, 22.0 ],
-									"text" : "del 500"
 								}
 
 							}
@@ -1642,7 +1668,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 563.5, 378.5, 104.0, 22.0 ],
+									"patching_rect" : [ 565.5, 198.5, 104.0, 22.0 ],
 									"text" : "udpreceive 56789"
 								}
 
@@ -1676,9 +1702,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 5,
-									"outlettype" : [ "bang", "TDMOscCheck", "bang", "bang", "Disconnect" ],
+									"outlettype" : [ "TDMOscCheck", "bang", "bang", "Disconnect", "bang" ],
 									"patching_rect" : [ 50.0, 100.0, 189.0, 22.0 ],
-									"text" : "t b TDMOscCheck b b Disconnect"
+									"text" : "t TDMOscCheck b b Disconnect b"
 								}
 
 							}
@@ -2004,21 +2030,21 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
-									"source" : [ "obj-5", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-62", 0 ],
-									"source" : [ "obj-5", 0 ]
+									"source" : [ "obj-5", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-75", 0 ],
-									"midpoints" : [ 229.5, 133.0, 539.0, 133.0 ],
+									"source" : [ "obj-5", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-76", 0 ],
+									"midpoints" : [ 229.5, 133.0, 505.0, 133.0 ],
 									"source" : [ "obj-5", 4 ]
 								}
 
@@ -2026,14 +2052,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-79", 0 ],
-									"source" : [ "obj-5", 1 ]
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-85", 0 ],
-									"source" : [ "obj-5", 3 ]
+									"source" : [ "obj-5", 2 ]
 								}
 
 							}
@@ -2057,14 +2083,6 @@
 									"destination" : [ "obj-31", 0 ],
 									"order" : 0,
 									"source" : [ "obj-6", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-76", 0 ],
-									"midpoints" : [ 59.5, 313.25, 505.0, 313.25 ],
-									"source" : [ "obj-62", 0 ]
 								}
 
 							}
@@ -2246,7 +2264,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"fontname" : "Futura Medium",
 					"fontsize" : 30.0,
 					"id" : "obj-73",
@@ -2255,9 +2273,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1056.5, 259.0, 175.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 587.0, 224.0, 211.0, 45.0 ],
-					"text" : "Disconnect",
-					"textcolor" : [ 1.0, 1.0, 0.0, 0.6 ],
+					"presentation_rect" : [ 587.0, 230.234375, 211.0, 45.0 ],
+					"text" : "Connecting",
+					"textcolor" : [ 0.0, 0.0, 1.0, 0.72 ],
 					"textjustification" : 1
 				}
 
@@ -2273,9 +2291,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1046.0, 200.5, 175.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 374.0, 224.0, 211.0, 45.0 ],
+					"presentation_rect" : [ 374.0, 230.234375, 211.0, 45.0 ],
 					"text" : "Disconnect",
-					"textcolor" : [ 1.0, 1.0, 0.0, 0.6 ],
+					"textcolor" : [ 1.0, 1.0, 0.0, 0.72 ],
 					"textjustification" : 1
 				}
 
@@ -2290,7 +2308,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1025.0, 15.0, 229.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 374.0, 147.0, 424.0, 53.0 ],
+					"presentation_rect" : [ 374.0, 154.0, 424.0, 53.0 ],
 					"text" : "OSC",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
@@ -2307,7 +2325,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1035.5, 171.5, 167.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 587.0, 202.0, 211.0, 22.0 ],
+					"presentation_rect" : [ 587.0, 208.234375, 211.0, 22.0 ],
 					"text" : "cszk.local",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -2323,8 +2341,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1025.0, 144.5, 167.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 374.0, 202.0, 211.0, 22.0 ],
-					"text" : "Kairi.local",
+					"presentation_rect" : [ 374.0, 208.234375, 211.0, 22.0 ],
+					"text" : "takashi-mbp.local",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -2381,7 +2399,7 @@
 					"outlettype" : [ "init" ],
 					"patching_rect" : [ 125.0, 9.0, 369.0, 115.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 147.0, 366.0, 133.0 ],
+					"presentation_rect" : [ 6.0, 153.765625, 366.0, 133.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -2392,7 +2410,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 148.0, 78.0, 22.0 ],
+					"patching_rect" : [ 9.0, 226.0, 78.0, 22.0 ],
 					"text" : "s TDMpolling"
 				}
 
@@ -2408,7 +2426,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 58.0, 114.0, 45.0 ],
+					"patching_rect" : [ 9.0, 136.0, 114.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 374.0, 5.0, 112.0, 100.0 ],
 					"text" : "Polling",
@@ -2425,7 +2443,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 9.0, 117.0, 76.0, 22.0 ],
+					"patching_rect" : [ 9.0, 195.0, 76.0, 22.0 ],
 					"text" : "qmetro 1000"
 				}
 
@@ -2460,7 +2478,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 885.0, 268.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 799.0, 153.765625, 851.66666666666697, 118.46875 ],
+					"presentation_rect" : [ 799.0, 157.0, 855.66666666666697, 118.46875 ],
 					"proportion" : 0.5
 				}
 
@@ -2477,7 +2495,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 885.0, 398.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 799.0, 3.765625, 851.66666666666697, 118.46875 ],
+					"presentation_rect" : [ 799.0, 3.765625, 855.66666666666697, 118.46875 ],
 					"proportion" : 0.5
 				}
 
@@ -2494,6 +2512,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -2534,7 +2573,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -2629,6 +2668,20 @@
 				"bootpath" : "~/Desktop/git_all/2020_musical/master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M3a_4.png",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
+				"patcherrelativepath" : "./text",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M3a_5.png",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
+				"patcherrelativepath" : "./text",
+				"type" : "PNG",
 				"implicit" : 1
 			}
  ],
