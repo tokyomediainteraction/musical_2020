@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 75.0, 79.0, 1663.0, 282.0 ],
+		"rect" : [ 75.0, 79.0, 1914.0, 814.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2257,7 +2257,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 587.0, 224.0, 211.0, 45.0 ],
 					"text" : "Disconnect",
-					"textcolor" : [ 1.0, 1.0, 0.0, 0.3856 ],
+					"textcolor" : [ 1.0, 1.0, 0.0, 0.6 ],
 					"textjustification" : 1
 				}
 
@@ -2275,7 +2275,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 374.0, 224.0, 211.0, 45.0 ],
 					"text" : "Disconnect",
-					"textcolor" : [ 1.0, 1.0, 0.0, 0.3856 ],
+					"textcolor" : [ 1.0, 1.0, 0.0, 0.6 ],
 					"textjustification" : 1
 				}
 
@@ -2308,7 +2308,7 @@
 					"patching_rect" : [ 1035.5, 171.5, 167.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 587.0, 202.0, 211.0, 22.0 ],
-					"text" : "takashi-mbp.local",
+					"text" : "cszk.local",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 

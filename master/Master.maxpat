@@ -257,19 +257,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-13" : [ "live.dial", "SCNE", 0 ],
 			"obj-1::obj-13" : [ "live.dial[2]", "SCNE", 0 ],
+			"obj-5::obj-13" : [ "live.dial", "SCNE", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-5::obj-13" : 				{
-					"parameter_longname" : "live.dial"
-				}
-,
 				"obj-1::obj-13" : 				{
 					"parameter_longname" : "live.dial[2]"
+				}
+,
+				"obj-5::obj-13" : 				{
+					"parameter_longname" : "live.dial"
 				}
 
 			}
@@ -326,14 +326,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "M1_1.png",
+				"name" : "M3a_2.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
 				"patcherrelativepath" : "./text",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "M1_2.png",
+				"name" : "M3a_3.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
 				"patcherrelativepath" : "./text",
 				"type" : "PNG",
