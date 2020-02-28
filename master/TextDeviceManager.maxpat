@@ -50,7 +50,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 587.0, 230.234375, 211.0, 45.0 ],
 					"text" : "Disconnect",
-					"textcolor" : [ 1.0, 1.0, 0.0, 0.68 ],
+					"textcolor" : [ 1.0, 1.0, 0.0, 0.44 ],
 					"textjustification" : 1
 				}
 
@@ -89,7 +89,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 302.0, 141.0, 1069.0, 1034.0 ],
+						"rect" : [ 607.0, 403.0, 1069.0, 1034.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -116,26 +116,15 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-93",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 91.0, 442.0, 50.0, 22.0 ],
-									"text" : "test"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-73",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 404.833333333333314, 534.0, 29.5, 22.0 ],
+									"patching_rect" : [ 269.833333333333314, 490.0, 29.5, 22.0 ],
 									"text" : "i"
 								}
 
@@ -147,7 +136,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "Disconnect" ],
-									"patching_rect" : [ 419.833333333333314, 647.0, 75.0, 22.0 ],
+									"patching_rect" : [ 284.833333333333314, 603.0, 75.0, 22.0 ],
 									"text" : "t Disconnect"
 								}
 
@@ -373,7 +362,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 404.833333333333314, 716.0, 76.0, 22.0 ],
+									"patching_rect" : [ 269.833333333333314, 672.0, 76.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -392,7 +381,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 482.833333333333314, 716.0, 72.0, 22.0 ],
+									"patching_rect" : [ 347.833333333333314, 672.0, 72.0, 22.0 ],
 									"text" : "prepend set"
 								}
 
@@ -404,7 +393,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 404.833333333333314, 681.0, 97.0, 22.0 ],
+									"patching_rect" : [ 269.833333333333314, 637.0, 97.0, 22.0 ],
 									"text" : "t s s"
 								}
 
@@ -416,7 +405,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "Connecting" ],
-									"patching_rect" : [ 404.833333333333314, 601.5, 76.0, 22.0 ],
+									"patching_rect" : [ 269.833333333333314, 557.5, 76.0, 22.0 ],
 									"text" : "t Connecting"
 								}
 
@@ -428,7 +417,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 404.833333333333314, 565.0, 34.0, 22.0 ],
+									"patching_rect" : [ 269.833333333333314, 521.0, 34.0, 22.0 ],
 									"text" : "sel 1"
 								}
 
@@ -440,7 +429,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 415.333333333333314, 496.0, 95.0, 22.0 ],
+									"patching_rect" : [ 280.333333333333314, 452.0, 95.0, 22.0 ],
 									"text" : "route connected"
 								}
 
@@ -452,7 +441,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 400.666666666666629, 410.5, 72.0, 22.0 ],
+									"patching_rect" : [ 265.666666666666629, 366.5, 72.0, 22.0 ],
 									"text" : "prepend set"
 								}
 
@@ -464,7 +453,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "test", "", "", "bang" ],
-									"patching_rect" : [ 386.0, 315.5, 63.0, 22.0 ],
+									"patching_rect" : [ 251.0, 271.5, 63.0, 22.0 ],
 									"text" : "t test s s b"
 								}
 
@@ -476,7 +465,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 415.333333333333314, 349.0, 79.0, 22.0 ],
+									"patching_rect" : [ 280.333333333333314, 305.0, 79.0, 22.0 ],
 									"text" : "prepend host"
 								}
 
@@ -488,7 +477,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 415.333333333333314, 382.0, 139.0, 22.0 ],
+									"patching_rect" : [ 280.333333333333314, 338.0, 139.0, 22.0 ],
 									"text" : "jit.net.send @port 34567"
 								}
 
@@ -501,7 +490,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 400.666666666666629, 453.0, 30.0, 30.0 ]
+									"patching_rect" : [ 265.666666666666629, 409.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -513,7 +502,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 404.833333333333314, 758.0, 30.0, 30.0 ]
+									"patching_rect" : [ 269.833333333333314, 714.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -524,7 +513,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 206.833333333333314, 534.0, 29.5, 22.0 ],
+									"patching_rect" : [ 71.833333333333314, 490.0, 29.5, 22.0 ],
 									"text" : "i"
 								}
 
@@ -536,7 +525,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "Disconnect" ],
-									"patching_rect" : [ 221.833333333333314, 647.0, 75.0, 22.0 ],
+									"patching_rect" : [ 86.833333333333314, 603.0, 75.0, 22.0 ],
 									"text" : "t Disconnect"
 								}
 
@@ -762,7 +751,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 206.833333333333314, 716.0, 76.0, 22.0 ],
+									"patching_rect" : [ 71.833333333333314, 672.0, 76.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -781,7 +770,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 284.833333333333314, 716.0, 72.0, 22.0 ],
+									"patching_rect" : [ 149.833333333333314, 672.0, 72.0, 22.0 ],
 									"text" : "prepend set"
 								}
 
@@ -793,7 +782,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 206.833333333333314, 681.0, 97.0, 22.0 ],
+									"patching_rect" : [ 71.833333333333314, 637.0, 97.0, 22.0 ],
 									"text" : "t s s"
 								}
 
@@ -805,7 +794,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "Connecting" ],
-									"patching_rect" : [ 206.833333333333314, 601.5, 76.0, 22.0 ],
+									"patching_rect" : [ 71.833333333333314, 557.5, 76.0, 22.0 ],
 									"text" : "t Connecting"
 								}
 
@@ -817,7 +806,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 206.833333333333314, 565.0, 34.0, 22.0 ],
+									"patching_rect" : [ 71.833333333333314, 521.0, 34.0, 22.0 ],
 									"text" : "sel 1"
 								}
 
@@ -829,7 +818,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 217.333333333333314, 496.0, 95.0, 22.0 ],
+									"patching_rect" : [ 82.333333333333314, 452.0, 95.0, 22.0 ],
 									"text" : "route connected"
 								}
 
@@ -841,7 +830,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 92.5, 146.0, 154.0, 22.0 ],
+									"patching_rect" : [ 29.666666666666686, 116.0, 154.0, 22.0 ],
 									"text" : "get receiver1, get receiver2"
 								}
 
@@ -854,7 +843,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 617.166666666666742, 758.0, 30.0, 30.0 ]
+									"patching_rect" : [ 482.166666666666742, 714.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -865,7 +854,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 337.333333333333314, 249.0, 89.0, 22.0 ],
+									"patching_rect" : [ 202.333333333333314, 205.0, 89.0, 22.0 ],
 									"text" : "prepend switch"
 								}
 
@@ -877,7 +866,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 177.5, 186.5, 75.0, 22.0 ],
+									"patching_rect" : [ 42.5, 142.5, 75.0, 22.0 ],
 									"text" : "hostList.json"
 								}
 
@@ -889,7 +878,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 202.666666666666657, 410.5, 72.0, 22.0 ],
+									"patching_rect" : [ 67.666666666666657, 366.5, 72.0, 22.0 ],
 									"text" : "prepend set"
 								}
 
@@ -901,7 +890,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "test", "", "", "bang" ],
-									"patching_rect" : [ 188.0, 315.5, 63.0, 22.0 ],
+									"patching_rect" : [ 53.0, 271.5, 63.0, 22.0 ],
 									"text" : "t test s s b"
 								}
 
@@ -913,7 +902,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "jit_matrix", "", "" ],
-									"patching_rect" : [ 558.666666666666742, 716.0, 136.0, 22.0 ],
+									"patching_rect" : [ 423.666666666666742, 672.0, 136.0, 22.0 ],
 									"text" : "jit.net.recv @port 56789"
 								}
 
@@ -923,10 +912,10 @@
 									"id" : "obj-5",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 5,
-									"outlettype" : [ "TDMOscCheck", "bang", "bang", "Disconnect", "bang" ],
-									"patching_rect" : [ 50.0, 100.0, 189.0, 22.0 ],
-									"text" : "t TDMOscCheck b b Disconnect b"
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "bang" ],
+									"patching_rect" : [ 29.5, 73.0, 32.0, 22.0 ],
+									"text" : "t b b"
 								}
 
 							}
@@ -937,7 +926,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 188.0, 280.0, 415.0, 22.0 ],
+									"patching_rect" : [ 53.0, 236.0, 415.0, 22.0 ],
 									"text" : "route receiver1 receiver2"
 								}
 
@@ -949,7 +938,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 177.5, 218.0, 80.0, 22.0 ],
+									"patching_rect" : [ 42.5, 174.0, 80.0, 22.0 ],
 									"text" : "prepend read"
 								}
 
@@ -961,7 +950,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 177.5, 249.0, 50.5, 22.0 ],
+									"patching_rect" : [ 42.5, 205.0, 50.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"parameter_enable" : 0,
@@ -979,7 +968,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 217.333333333333314, 349.0, 79.0, 22.0 ],
+									"patching_rect" : [ 82.333333333333314, 305.0, 79.0, 22.0 ],
 									"text" : "prepend host"
 								}
 
@@ -991,7 +980,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 217.333333333333314, 382.0, 139.0, 22.0 ],
+									"patching_rect" : [ 82.333333333333314, 338.0, 139.0, 22.0 ],
 									"text" : "jit.net.send @port 34567"
 								}
 
@@ -1005,7 +994,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
+									"patching_rect" : [ 29.5, 21.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -1018,7 +1007,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 337.333333333333314, 40.0, 30.0, 30.0 ]
+									"patching_rect" : [ 202.333333333333314, 21.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -1030,7 +1019,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 202.666666666666657, 453.0, 30.0, 30.0 ]
+									"patching_rect" : [ 67.666666666666657, 409.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -1042,7 +1031,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 206.833333333333314, 758.0, 30.0, 30.0 ]
+									"patching_rect" : [ 71.833333333333314, 714.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -1058,7 +1047,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-84", 1 ],
-									"midpoints" : [ 346.833333333333314, 310.0, 544.833333333333258, 310.0 ],
+									"midpoints" : [ 211.833333333333314, 266.0, 409.833333333333314, 266.0 ],
 									"order" : 0,
 									"source" : [ "obj-1", 0 ]
 								}
@@ -1074,6 +1063,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-53", 0 ],
+									"midpoints" : [ 39.166666666666686, 199.0, 52.0, 199.0 ],
 									"source" : [ "obj-15", 0 ]
 								}
 
@@ -1088,8 +1078,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 1 ],
-									"midpoints" : [ 197.5, 377.25, 346.833333333333314, 377.25 ],
-									"order" : 0,
+									"midpoints" : [ 62.5, 333.25, 211.833333333333314, 333.25 ],
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -1104,16 +1093,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-55", 0 ],
-									"midpoints" : [ 241.5, 526.25, 216.333333333333314, 526.25 ],
+									"midpoints" : [ 106.5, 482.25, 81.333333333333314, 482.25 ],
 									"source" : [ "obj-16", 3 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-93", 1 ],
-									"order" : 1,
-									"source" : [ "obj-16", 0 ]
 								}
 
 							}
@@ -1211,14 +1192,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
-									"source" : [ "obj-5", 1 ]
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-85", 0 ],
-									"source" : [ "obj-5", 2 ]
+									"source" : [ "obj-5", 1 ]
 								}
 
 							}
@@ -1344,7 +1325,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-73", 0 ],
-									"midpoints" : [ 439.5, 526.25, 414.333333333333314, 526.25 ],
+									"midpoints" : [ 304.5, 482.25, 279.333333333333314, 482.25 ],
 									"source" : [ "obj-82", 3 ]
 								}
 
@@ -1366,7 +1347,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-84", 1 ],
-									"midpoints" : [ 395.5, 375.25, 544.833333333333258, 375.25 ],
+									"midpoints" : [ 260.5, 331.25, 409.833333333333314, 331.25 ],
 									"source" : [ "obj-82", 0 ]
 								}
 
@@ -2208,7 +2189,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"fontname" : "Futura Medium",
 					"fontsize" : 30.0,
 					"id" : "obj-69",
@@ -2218,8 +2199,8 @@
 					"patching_rect" : [ 1035.5, 165.5, 175.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 374.0, 230.234375, 211.0, 45.0 ],
-					"text" : "Disconnect",
-					"textcolor" : [ 1.0, 1.0, 0.0, 0.68 ],
+					"text" : "Connecting",
+					"textcolor" : [ 0.0, 0.0, 1.0, 0.44 ],
 					"textjustification" : 1
 				}
 
@@ -2354,7 +2335,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 9.0, 195.0, 76.0, 22.0 ],
-					"text" : "qmetro 1000"
+					"text" : "qmetro 1500"
 				}
 
 			}
@@ -2574,14 +2555,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "clear.png",
+				"name" : "M1_6.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
 				"patcherrelativepath" : "./text",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "M1_1.png",
+				"name" : "M1_7.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
 				"patcherrelativepath" : "./text",
 				"type" : "PNG",
