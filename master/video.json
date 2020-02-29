@@ -129,8 +129,8 @@
 		}
 , 		{
 			"sceneName" : "1幕7場",
-			"mediaPath" : "1_7_1.png",
-			"previewPath" : "1_7_1.png",
+			"mediaPath" : "1_7_3.png",
+			"previewPath" : "1_7_3.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
 			"followText" : "転換はじめ"
@@ -145,16 +145,16 @@
 		}		
 , 		{
 			"sceneName" : "1幕8場",
-			"mediaPath" : "1_8_1.png",
-			"previewPath" : "1_8_1.png",
+			"mediaPath" : "1_8_4.png",
+			"previewPath" : "1_8_4.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
 			"followText" : "TEST"
 		}
 , 		{
 			"sceneName" : "1幕9場",
-			"mediaPath" : "1_9_1.png",
-			"previewPath" : "1_5_2.png",
+			"mediaPath" : "1_9_2.png",
+			"previewPath" : "1_9_2.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
 			"followText" : "TEST"
