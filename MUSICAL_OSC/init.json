@@ -1,0 +1,17 @@
+{
+  "init":{
+    "max":{
+      "video_reflesh":"bang",
+      "text_reflesh":"bang",
+      "able_key_control": 1,
+      "polling": 1,
+      "set_video_scene_number": 0,
+      "text_scene": 0
+    },
+    "td":{
+      "textFadeDuration": 10,
+      "textPositionY": -280,
+      "blurPositionY": -280
+    }
+  }
+}
