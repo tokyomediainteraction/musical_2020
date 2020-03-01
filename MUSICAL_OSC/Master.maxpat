@@ -278,91 +278,91 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "OSC.maxpat",
-				"bootpath" : "~/Desktop/MUSICAL_OSC",
+				"bootpath" : "~/Desktop/git_all/2020_musical/MUSICAL_OSC",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "openTD.maxpat",
-				"bootpath" : "~/Desktop/MUSICAL_OSC",
+				"bootpath" : "~/Desktop/git_all/2020_musical/MUSICAL_OSC",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "td.js",
-				"bootpath" : "~/Desktop/MUSICAL_OSC",
+				"bootpath" : "~/Desktop/git_all/2020_musical/MUSICAL_OSC",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "video_cue.maxpat",
-				"bootpath" : "~/Desktop/MUSICAL_OSC",
+				"bootpath" : "~/Desktop/git_all/2020_musical/MUSICAL_OSC",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "0_0.png",
-				"bootpath" : "~/Desktop/MUSICAL_OSC/media",
-				"patcherrelativepath" : "./media",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master/media",
+				"patcherrelativepath" : "../master/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1_0.png",
-				"bootpath" : "~/Desktop/MUSICAL_OSC/media",
-				"patcherrelativepath" : "./media",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master/media",
+				"patcherrelativepath" : "../master/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "text_cue.maxpat",
-				"bootpath" : "~/Desktop/MUSICAL_OSC",
+				"bootpath" : "~/Desktop/git_all/2020_musical/MUSICAL_OSC",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "clear.png",
-				"bootpath" : "~/Desktop/MUSICAL_OSC/text",
-				"patcherrelativepath" : "./text",
+				"name" : "M1_7.png",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
+				"patcherrelativepath" : "../master/text",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "M1_1.png",
-				"bootpath" : "~/Desktop/MUSICAL_OSC/text",
-				"patcherrelativepath" : "./text",
+				"name" : "M1_8.png",
+				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
+				"patcherrelativepath" : "../master/text",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "keyboard.maxpat",
-				"bootpath" : "~/Desktop/MUSICAL_OSC",
+				"bootpath" : "~/Desktop/git_all/2020_musical/MUSICAL_OSC",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "keyCounter.js",
-				"bootpath" : "~/Desktop/MUSICAL_OSC",
+				"bootpath" : "~/Desktop/git_all/2020_musical/MUSICAL_OSC",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "textswitch.maxpat",
-				"bootpath" : "~/Desktop/MUSICAL_OSC",
+				"bootpath" : "~/Desktop/git_all/2020_musical/MUSICAL_OSC",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "initialize.maxpat",
-				"bootpath" : "~/Desktop/MUSICAL_OSC",
+				"bootpath" : "~/Desktop/git_all/2020_musical/MUSICAL_OSC",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
