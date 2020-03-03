@@ -93,7 +93,7 @@
 			"previewPath" : "1_3_1.png",
 			"fadeDuration" : 3000,
 			"blurSwitch" : 0,
-			"followText" : "Mariaの音楽終わりで フェードアウト"
+			"followText" : "M4「Maria」の音楽終わりで フェードアウト"
 		}
 , 		{
 			"sceneName" : "1幕3・４場",
@@ -101,15 +101,15 @@
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 3000,
 			"blurSwitch" : 0,
-			"followText" : "M6:interludeの11小節で フェードイン"
+			"followText" : "M6「interlude」の11小節目で フェードイン"
 		}
 , 		{
 			"sceneName" : "1幕5場",
 			"mediaPath" : "1_5_1_2.png",
 			"previewPath" : "1_5_1_2.png",
-			"fadeDuration" : 4000,
+			"fadeDuration" : 2000,
 			"blurSwitch" : 0,
-			"followText" : "17小節で クロスフェード"
+			"followText" : "M6「interlude」17小節で クロスフェード"
 		}
 , 		{
 			"sceneName" : "1幕5場",
@@ -117,7 +117,7 @@
 			"previewPath" : "1_5_2.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "マリア、シュミットが退場すると暗転と同時に フェードアウト"
+			"followText" : "マリア、シュミットが退場するときの暗転と同時に フェードアウト"
 		}
 , 		{
 			"sceneName" : "1幕5場",
@@ -144,13 +144,29 @@
 			"followText" : "リーズルの喜びの表情のピンスポout&暗転と同時に カットアウト"
 		}
 , 		{
-			"sceneName" : "1幕6・７場",
+			"sceneName" : "1幕6・7場",
+			"mediaPath" : "0_0.png",
+			"previewPath" : "0_0.png",
+			"fadeDuration" : 300,
+			"blurSwitch" : 0,
+			"followText" : "M10ラストのフェルマータでフェードイン"
+		}
+, 		{
+			"sceneName" : "1幕７場",
+			"mediaPath" : "1_7_1.png",
+			"previewPath" : "1_7_1.png",
+			"fadeDuration" : 300,
+			"blurSwitch" : 0,
+			"followText" : "M12の曲終わりで カットアウト (照明と一緒)"
+		}
+, 		{
+			"sceneName" : "1幕7・８場",
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 300,
 			"blurSwitch" : 0,
 			"followText" : "SE小鳥のさえずりと共に フェードイン"
-		}	
+		}
 , 		{
 			"sceneName" : "1幕8場",
 			"mediaPath" : "1_8_0.png",
@@ -174,7 +190,7 @@
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
 			"followText" : "ダンス曲 13 小節目から照明と共に フェードイン"
-		}	
+		}
 , 		{
 			"sceneName" : "1幕10場",
 			"mediaPath" : "1_10_9.png",
@@ -187,15 +203,15 @@
 			"sceneName" : "1幕10場",
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
-			"fadeDuration" : 4000,
+			"fadeDuration" : 1000,
 			"blurSwitch" : 0,
 			"followText" : "上下からお客たちが現れるのを受けて照明と共に フェードイン"
-		}	
+		}
 , 		{
 			"sceneName" : "1幕10場",
 			"mediaPath" : "1_5_2.png",
 			"previewPath" : "1_5_2.png",
-			"fadeDuration" : 4000,
+			"fadeDuration" : 2000,
 			"blurSwitch" : 0,
 			"followText" : "マリアが下手前袖に退場してピンスポ&暗転と共に フェードアウト"
 		}
@@ -206,7 +222,7 @@
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
 			"followText" : "教会のSE終わりで フェードイン"
-		}	
+		}
 , 		{
 			"sceneName" : "1幕11場",
 			"mediaPath" : "1_2_1_1.png",
@@ -221,13 +237,13 @@
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 300,
 			"blurSwitch" : 0,
-			"followText" : "M25.124小節で照明と共に フェードイン (武川さんの合図)"
-		}	
+			"followText" : "M25 21小節目で照明と共に フェードイン (武川さんの合図)"
+		}
 , 		{
 			"sceneName" : "2幕1場",
 			"mediaPath" : "1_8_0.png",
 			"previewPath" : "1_8_0.png",
-			"fadeDuration" : 4000,
+			"fadeDuration" : 5000,
 			"blurSwitch" : 0,
 			"followText" : "M29「No Way To Stop It」のエルザの歌いだしと共に クロスフェード"
 		}
@@ -237,7 +253,7 @@
 			"previewPath" : "2_1_2.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "M29「No Way To Stop It」ナンバー終わりで クロスフィード"
+			"followText" : "大佐「誇りは捨てて・・・立ち向かわないと！」のあと クロスフェード"
 		}
 , 		{
 			"sceneName" : "2幕1場",
@@ -261,8 +277,8 @@
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "パイプオルガン演奏10小節目で フェードイン"
-		}	
+			"followText" : "パイプオルガン演奏頭で フェードイン"
+		}
 , 		{
 			"sceneName" : "2幕2場",
 			"mediaPath" : "1_2_3_8.png",
@@ -286,14 +302,14 @@
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
 			"followText" : "子供達「一番小さいから!」を聞いてから フェードイン"
-		}	
+		}
 , 		{
 			"sceneName" : "2幕4場",
 			"mediaPath" : "1_5_2.png",
 			"previewPath" : "1_5_2.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "大佐の♪Far - a long long wa to runを聞いてから クロスフェード"
+			"followText" : "大佐の♪Far - a long long way to runを歌い出したら クロスフェード"
 		}
 , 		{
 			"sceneName" : "2幕5場",
@@ -309,8 +325,8 @@
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 300,
 			"blurSwitch" : 0,
-			"followText" : "上手にマックスが退場したのを確認してからM40a「Change Of SCene」と共に フェードイン"
-		}	
+			"followText" : "上手にマックスが退場したのを確認してからM40a「Change Of Scene」の5小節目から フェードイン"
+		}
 , 		{
 			"sceneName" : "2幕6場",
 			"mediaPath" : "2_6_1.png",
@@ -347,12 +363,12 @@
 			"sceneName" : "2幕7場",
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
-			"fadeDuration" : 300,
+			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
 			"followText" : "M43♪エーデルワイス♪の曲入りで フェードイン"
-		}	
+		}
 , 		{
-			"sceneName" : "2幕7場",
+			"sceneName" : "カーテンコール",
 			"mediaPath" : "2_7_3.png",
 			"previewPath" : "2_7_3.png",
 			"fadeDuration" : 4000,
@@ -360,7 +376,7 @@
 			"followText" : "第2コーラスと共に クロスフェード"
 		}
 , 		{
-			"sceneName" : "2幕7場",
+			"sceneName" : "カーテンコール",
 			"mediaPath" : "2_7_4.png",
 			"previewPath" : "2_7_4.png",
 			"fadeDuration" : 4000,
@@ -371,9 +387,9 @@
 			"sceneName" : "FINISH",
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
-			"fadeDuration" : 300,
+			"fadeDuration" : 500,
 			"blurSwitch" : 0,
 			"followText" : "FINISH"
-		}	
+		}
  ]
 }

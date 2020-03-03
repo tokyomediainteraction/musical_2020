@@ -115,7 +115,7 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "keyboard.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 327.0, 117.0, 299.0, 107.0 ],
@@ -306,15 +306,15 @@
 			}
 , 			{
 				"name" : "0_0.png",
-				"bootpath" : "~/Desktop/git_all/2020_musical/master/media",
-				"patcherrelativepath" : "../master/media",
+				"bootpath" : "~/Desktop/git_all/2020_musical/MUSICAL_OSC/media",
+				"patcherrelativepath" : "./media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1_0.png",
-				"bootpath" : "~/Desktop/git_all/2020_musical/master/media",
-				"patcherrelativepath" : "../master/media",
+				"bootpath" : "~/Desktop/git_all/2020_musical/MUSICAL_OSC/media",
+				"patcherrelativepath" : "./media",
 				"type" : "PNG",
 				"implicit" : 1
 			}

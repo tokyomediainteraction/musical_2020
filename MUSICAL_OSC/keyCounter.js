@@ -26,9 +26,7 @@ function setMaximum(v){
 
 function outNum(v){
   outlet(0, 'send', v);
-  post('out', count + "\n");
 }
 function commentNum(v){
   outlet(0, 'comment', v);
-  post('comment', count + "\n");
 }
