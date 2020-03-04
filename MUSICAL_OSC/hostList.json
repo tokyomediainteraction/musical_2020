@@ -1,5 +1,5 @@
 {
-  "sender": "cszk.local",
-  "receiver1":"takashi-mbp.local",
-  "receiver2":"Kairi.local"
+  "sender": "192.168.0.1",
+  "receiver1":"192.168.0.2",
+  "receiver2":"192.168.0.3"
 }

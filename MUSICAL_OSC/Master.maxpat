@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 75.0, 540.0, 1249.0, 706.0 ],
+		"rect" : [ 68.0, 525.0, 1303.0, 704.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -78,7 +78,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 770.0, 56.0, 284.0, 102.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 918.0, 101.0, 328.0, 169.0 ],
+					"presentation_rect" : [ 939.0, 101.0, 328.0, 169.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -141,7 +141,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 461.0, 226.0, 459.0, 440.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 683.0, 273.0, 563.0, 330.0 ],
+					"presentation_rect" : [ 683.0, 273.0, 589.0, 330.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -222,7 +222,7 @@
 					"patching_rect" : [ 1.0, 77.0, 502.0, 84.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 683.0, 605.0, 563.0, 84.0 ],
+					"presentation_rect" : [ 704.0, 605.0, 563.0, 84.0 ],
 					"text" : "Created by Tokyo Media Interaction\nmediainteraction.tokyo",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 2
@@ -241,7 +241,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.0, 6.0, 915.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, -1.0, 1243.0, 100.0 ],
+					"presentation_rect" : [ 3.0, -1.0, 1264.0, 100.0 ],
 					"text" : "MUSICAL CUEING SYSTEM",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -256,26 +256,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-5::obj-13" : [ "live.dial", "SCNE", 0 ],
-			"obj-1::obj-13" : [ "live.dial[2]", "SCNE", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-5::obj-13" : 				{
-					"parameter_longname" : "live.dial"
-				}
-,
-				"obj-1::obj-13" : 				{
-					"parameter_longname" : "live.dial[2]"
-				}
-
-			}
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "OSC.maxpat",
 				"bootpath" : "~/Desktop/git_all/2020_musical/MUSICAL_OSC",
@@ -312,7 +292,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "1_0.png",
+				"name" : "2_7_3.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/MUSICAL_OSC/media",
 				"patcherrelativepath" : "./media",
 				"type" : "PNG",
@@ -326,16 +306,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "M1_7.png",
-				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
-				"patcherrelativepath" : "../master/text",
+				"name" : "clear.png",
+				"bootpath" : "~/Desktop/git_all/2020_musical/MUSICAL_OSC/text",
+				"patcherrelativepath" : "./text",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "M1_8.png",
-				"bootpath" : "~/Desktop/git_all/2020_musical/master/text",
-				"patcherrelativepath" : "../master/text",
+				"name" : "M42_1.png",
+				"bootpath" : "~/Desktop/git_all/2020_musical/MUSICAL_OSC/text",
+				"patcherrelativepath" : "./text",
 				"type" : "PNG",
 				"implicit" : 1
 			}
