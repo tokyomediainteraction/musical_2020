@@ -155,7 +155,7 @@
 			"sceneName" : "1幕７場",
 			"mediaPath" : "1_7_1.png",
 			"previewPath" : "1_7_1.png",
-			"fadeDuration" : 300,
+			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
 			"followText" : "M12の曲終わりで カットアウト (照明と一緒)"
 		}
@@ -237,7 +237,7 @@
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 300,
 			"blurSwitch" : 0,
-			"followText" : "M25 21小節目で照明と共に フェードイン (武川さんの合図)"
+			"followText" : "M25 23小節目で照明と共に フェードイン (武川さんの合図)"
 		}
 , 		{
 			"sceneName" : "2幕1場",
@@ -285,7 +285,7 @@
 			"previewPath" : "1_2_3_8.png",
 			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
-			"followText" : "M33から修道女たちの歌になる1小節前(ダン.ダ.ダ.ダ.ダン)共に クロスフェード"
+			"followText" : "M33a 修道女たちの歌になる1小節前(ダン.ダ.ダ.ダ.ダン)共に クロスフェード"
 		}
 , 		{
 			"sceneName" : "2幕3場",
