@@ -155,7 +155,7 @@
 			"sceneName" : "1幕７場",
 			"mediaPath" : "1_7_1.png",
 			"previewPath" : "1_7_1.png",
-			"fadeDuration" : 300,
+			"fadeDuration" : 4000,
 			"blurSwitch" : 0,
 			"followText" : "M12の曲終わりで カットアウト (照明と一緒)"
 		}
