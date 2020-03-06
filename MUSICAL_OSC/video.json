@@ -4,7 +4,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 1000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "工藤先生が指揮台に付きタクトを振ると同時に Opening動画In"
 		}
 , 		{
@@ -12,7 +12,7 @@
 			"mediaPath" : "1_0.mov",
 			"previewPath" : "1_0.png",
 			"fadeDuration" : 2000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M1 が終わると同時にフェードアウト"
 		}
 , 		{
@@ -20,7 +20,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 2000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M2(Overture)と共にクレジット動画In"
 		}
 , 		{
@@ -28,7 +28,7 @@
 			"mediaPath" : "1_1.mov",
 			"previewPath" : "1_1.png",
 			"fadeDuration" : 1000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "false",
 			"followText" : "M2が終わると同時にフェードアウト"
 		}
 , 		{
@@ -36,7 +36,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 3000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "false",
 			"followText" : "オケの鐘が終わり M3a「前奏曲」と共にフェードイン"
 		}
 , 		{
@@ -44,7 +44,7 @@
 			"mediaPath" : "1_2_1_1.png",
 			"previewPath" : "1_2_1_1.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M3aが終わると フェードアウト"
 		}
 , 		{
@@ -52,7 +52,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 3000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M3bと共にフェードイン"
 		}
 , 		{
@@ -60,7 +60,7 @@
 			"mediaPath" : "1_2_2_4.png",
 			"previewPath" : "1_2_2_4.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M3bが終わり、 オケの鐘の音が終わると フェードアウト"
 		}
 , 		{
@@ -68,7 +68,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 3000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M3cと共に フェードイン"
 		}
 , 		{
@@ -76,7 +76,7 @@
 			"mediaPath" : "1_2_3_8.png",
 			"previewPath" : "1_2_3_8.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "SEの鐘の音が終わると フェードアウト"
 		}
 , 		{
@@ -84,7 +84,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 3000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "院長、マルガレッタ、ベルテが舞台前に止まる時に フェードイン"
 		}
 , 		{
@@ -92,7 +92,7 @@
 			"mediaPath" : "1_3_1.png",
 			"previewPath" : "1_3_1.png",
 			"fadeDuration" : 3000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M4「Maria」の音楽終わりで フェードアウト"
 		}
 , 		{
@@ -100,7 +100,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 3000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M6「interlude」の11小節目で フェードイン"
 		}
 , 		{
@@ -108,7 +108,7 @@
 			"mediaPath" : "1_5_1_2.png",
 			"previewPath" : "1_5_1_2.png",
 			"fadeDuration" : 2000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M6「interlude」17小節で クロスフェード"
 		}
 , 		{
@@ -116,7 +116,7 @@
 			"mediaPath" : "1_5_2.png",
 			"previewPath" : "1_5_2.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "マリア、シュミットが退場するときの暗転と同時に フェードアウト"
 		}
 , 		{
@@ -124,7 +124,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 3000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "BGM(underScore)の 29小節で照明と共に フェードイン"
 		}
 , 		{
@@ -132,7 +132,7 @@
 			"mediaPath" : "1_6_1_1.png",
 			"previewPath" : "1_6_1_1.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "ダンスセクションの音楽頭で クロスフェード"
 		}
 , 		{
@@ -140,7 +140,7 @@
 			"mediaPath" : "1_6_1_2.png",
 			"previewPath" : "1_6_1_2.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "リーズルの喜びの表情のピンスポout&暗転と同時に カットアウト"
 		}
 , 		{
@@ -148,7 +148,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 300,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M10ラストのフェルマータでフェードイン"
 		}
 , 		{
@@ -156,7 +156,7 @@
 			"mediaPath" : "1_7_1.png",
 			"previewPath" : "1_7_1.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M12の曲終わりで カットアウト (照明と一緒)"
 		}
 , 		{
@@ -164,7 +164,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 300,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "SE小鳥のさえずりと共に フェードイン"
 		}
 , 		{
@@ -172,7 +172,7 @@
 			"mediaPath" : "1_8_0.png",
 			"previewPath" : "1_8_0.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "トラップ大佐が下手に移動すると クロスフェード"
 		}
 , 		{
@@ -180,7 +180,7 @@
 			"mediaPath" : "1_5_2.png",
 			"previewPath" : "1_5_2.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "暗転と同時に フェードアウト"
 		}
 , 		{
@@ -188,7 +188,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "ダンス曲 13 小節目から照明と共に フェードイン"
 		}
 , 		{
@@ -196,7 +196,7 @@
 			"mediaPath" : "1_10_9.png",
 			"previewPath" : "1_10_9.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "エルザ「皆様お待ちかねよ・・・するんですって」の後、二人が一度上手へ退場する途中で照明と同時 フェードアウト"
 		}
 , 		{
@@ -204,7 +204,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 1000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "上下からお客たちが現れるのを受けて照明と共に フェードイン"
 		}
 , 		{
@@ -212,7 +212,7 @@
 			"mediaPath" : "1_5_2.png",
 			"previewPath" : "1_5_2.png",
 			"fadeDuration" : 2000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "マリアが下手前袖に退場してピンスポ&暗転と共に フェードアウト"
 		}
 , 		{
@@ -220,7 +220,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "教会のSE終わりで フェードイン"
 		}
 , 		{
@@ -228,7 +228,7 @@
 			"mediaPath" : "1_2_1_1.png",
 			"previewPath" : "1_2_1_1.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M24「全ての山へ登れ」の曲終わりで照明と共に カットアウト"
 		}
 , 		{
@@ -236,7 +236,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 300,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M25 23小節目で照明と共に フェードイン (武川さんの合図)"
 		}
 , 		{
@@ -244,7 +244,7 @@
 			"mediaPath" : "1_8_0.png",
 			"previewPath" : "1_8_0.png",
 			"fadeDuration" : 5000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M29「No Way To Stop It」のエルザの歌いだしと共に クロスフェード"
 		}
 , 		{
@@ -252,7 +252,7 @@
 			"mediaPath" : "2_1_2.png",
 			"previewPath" : "2_1_2.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "大佐「誇りは捨てて・・・立ち向かわないと！」のあと クロスフェード"
 		}
 , 		{
@@ -260,7 +260,7 @@
 			"mediaPath" : "2_1_3.png",
 			"previewPath" : "2_1_3.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "大佐「でも、ある日突然・・・本当は分かっていた」の台詞の後で クロスフェード"
 		}
 , 		{
@@ -268,7 +268,7 @@
 			"mediaPath" : "2_1_4.png",
 			"previewPath" : "2_1_4.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "二人は抱き合う 暗転 と共に フェードアウト"
 		}
 , 		{
@@ -276,7 +276,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "パイプオルガン演奏頭で フェードイン"
 		}
 , 		{
@@ -284,7 +284,7 @@
 			"mediaPath" : "1_2_3_8.png",
 			"previewPath" : "1_2_3_8.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M33a 修道女たちの歌になる1小節前(ダン.ダ.ダ.ダ.ダン)共に クロスフェード"
 		}
 , 		{
@@ -292,7 +292,7 @@
 			"mediaPath" : "2_3_1.png",
 			"previewPath" : "2_3_1.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M33a「マリア リプライズ」ナンバー終わりで照明と共に フェードアウト"
 		}
 , 		{
@@ -300,7 +300,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "子供達「一番小さいから!」を聞いてから フェードイン"
 		}
 , 		{
@@ -308,15 +308,15 @@
 			"mediaPath" : "1_5_2.png",
 			"previewPath" : "1_5_2.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
-			"followText" : "大佐の♪Far - a long long way to runを歌い出したら クロスフェード"
+			"blurSwitch" : "true",
+			"followText" : "大佐の♪Far - a long long way to runを歌い終わったら クロスフェード"
 		}
 , 		{
 			"sceneName" : "2幕5場",
 			"mediaPath" : "2_5_1.png",
 			"previewPath" : "2_5_1.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "親衛隊の声「逃げたぞ!」を聞いて照明と共に カットアウト"
 		}
 , 		{
@@ -324,7 +324,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 300,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "上手にマックスが退場したのを確認してからM40a「Change Of Scene」の5小節目から フェードイン"
 		}
 , 		{
@@ -332,7 +332,7 @@
 			"mediaPath" : "2_6_1.png",
 			"previewPath" : "2_6_1.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "修道院長「もう大丈夫」の台詞を聞いてエーデルワイスのBGMと共に クロスフェード"
 		}
 , 		{
@@ -340,7 +340,7 @@
 			"mediaPath" : "2_6_2.png",
 			"previewPath" : "2_6_2.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "S.ベルテ「国境も全て閉鎖されているとのことです」を聞いて クロスフェード"
 		}
 , 		{
@@ -348,7 +348,7 @@
 			"mediaPath" : "2_6_3.png",
 			"previewPath" : "2_6_3.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M42の修道院長の♪For as long as you live を聞いてから クロスフェード"
 		}
 , 		{
@@ -356,7 +356,7 @@
 			"mediaPath" : "2_7_2.png",
 			"previewPath" : "2_7_2.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M42のナンバー終わりで照明と共に フェードアウト (本編終了)"
 		}
 , 		{
@@ -364,7 +364,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "true",
 			"followText" : "M43♪エーデルワイス♪の曲入りで フェードイン"
 		}
 , 		{
@@ -372,7 +372,7 @@
 			"mediaPath" : "2_7_3.png",
 			"previewPath" : "2_7_3.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "false",
 			"followText" : "第2コーラスと共に クロスフェード"
 		}
 , 		{
@@ -380,7 +380,7 @@
 			"mediaPath" : "2_7_4.png",
 			"previewPath" : "2_7_4.png",
 			"fadeDuration" : 4000,
-			"blurSwitch" : 0,
+			"blurSwitch" : "false",
 			"followText" : "M43エーデルワイスナンバー終わりで フェードアウト"
 		}
 , 		{
@@ -388,7 +388,7 @@
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
 			"fadeDuration" : 500,
-			"blurSwitch" : 0,
+			"blurSwitch" : "false",
 			"followText" : "FINISH"
 		}
  ]

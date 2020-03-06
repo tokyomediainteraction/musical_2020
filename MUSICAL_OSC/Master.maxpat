@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 68.0, 525.0, 1303.0, 704.0 ],
+		"rect" : [ 75.0, 525.0, 1303.0, 704.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -292,7 +292,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "2_7_3.png",
+				"name" : "1_0.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/MUSICAL_OSC/media",
 				"patcherrelativepath" : "./media",
 				"type" : "PNG",
@@ -313,7 +313,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "M42_1.png",
+				"name" : "M1_1.png",
 				"bootpath" : "~/Desktop/git_all/2020_musical/MUSICAL_OSC/text",
 				"patcherrelativepath" : "./text",
 				"type" : "PNG",

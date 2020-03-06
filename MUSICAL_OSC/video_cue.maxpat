@@ -450,7 +450,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 26.0, 445.0, 50.0, 35.0 ],
-					"text" : "scene[48]"
+					"text" : "scene[4]"
 				}
 
 			}
@@ -466,7 +466,7 @@
 					"patching_rect" : [ 597.0, 983.0, 192.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 269.919525994194885, 298.74138331413269, 184.0, 21.0 ],
-					"text" : "FINISH",
+					"text" : "1幕1場",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -746,7 +746,7 @@
 					"patching_rect" : [ 157.0, 998.0, 192.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 266.634088940090635, 99.0, 187.214562945895636, 21.0 ],
-					"text" : "FINISH",
+					"text" : "1幕1場",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -762,7 +762,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ -24.777777777777771, 998.0, 177.777777777777771, 100.0 ],
-					"pic" : "Macintosh HD:/Users/miyamototakashi/Desktop/git_all/2020_musical/MUSICAL_OSC/media/0_0.png",
+					"pic" : "Macintosh HD:/Users/miyamototakashi/Desktop/git_all/2020_musical/MUSICAL_OSC/media/1_1.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 268.919525994194885, 122.0, 184.429125891791443, 103.74138331413269 ]
 				}
@@ -1521,13 +1521,15 @@
 					"fontname" : "Hiragino Kaku Gothic ProN W6",
 					"fontsize" : 15.0,
 					"id" : "obj-3",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.5, 1110.0, 192.0, 21.0 ],
+					"patching_rect" : [ 127.5, 1110.0, 192.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 455.848651885986328, 99.0, 217.0, 21.0 ],
-					"text" : "FINISH",
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 455.848651885986328, 99.0, 217.0, 36.0 ],
+					"text" : "M2が終わると同時にフェードアウト",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -2324,7 +2326,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 91.0, 227.74138331413269, 307.0, 22.0 ],
 					"rounded" : 1.0,
-					"text" : "FINISH"
+					"text" : "1幕1場"
 				}
 
 			}
@@ -3108,7 +3110,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 66.0, 427.74138331413269, 333.0, 22.0 ],
 					"rounded" : 1.0,
-					"text" : "FINISH"
+					"text" : "1幕1場"
 				}
 
 			}
@@ -3153,14 +3155,13 @@
 					"fontname" : "Futura Medium",
 					"fontsize" : 30.0,
 					"id" : "obj-31",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 893.0, 812.0, 218.0, 84.0 ],
+					"patching_rect" : [ 893.0, 812.0, 218.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.5, 251.74138331413269, 454.848651885986328, 45.0 ],
-					"text" : "NEXT: scene[48]",
+					"text" : "NEXT: scene[4]",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -3170,14 +3171,13 @@
 					"fontname" : "Futura Medium",
 					"fontsize" : 30.0,
 					"id" : "obj-34",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 893.0, 728.0, 225.0, 84.0 ],
+					"patching_rect" : [ 893.0, 728.0, 225.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.5, 52.0, 454.848651885986328, 45.0 ],
-					"text" : "NOW: scene[48]",
+					"text" : "NOW: scene[3]",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -4373,15 +4373,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "0_0.png",
-				"bootpath" : "~/Desktop/git_all/2020_musical/MUSICAL_OSC/media",
-				"patcherrelativepath" : "./media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.243137, 0.243137, 0.243137, 1.0 ],
 		"editing_bgcolor" : [ 0.243137, 0.243137, 0.243137, 1.0 ]
 	}

@@ -10,8 +10,8 @@
     },
     "td":{
       "textFadeDuration": 10,
-      "textPositionY": -280,
-      "blurPositionY": -280
+      "textPositionY": -230,
+      "blurPositionY": -220
     }
   }
 }
