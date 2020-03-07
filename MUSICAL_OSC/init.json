@@ -11,7 +11,8 @@
     "td":{
       "textFadeDuration": 10,
       "textPositionY": -230,
-      "blurPositionY": -220
+      "blurPositionY": -220,
+      "displaySizeWidth": 960
     }
   }
 }
