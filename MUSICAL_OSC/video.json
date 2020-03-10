@@ -147,7 +147,7 @@
 			"sceneName" : "1幕6・7場",
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
-			"fadeDuration" : 300,
+			"fadeDuration" : 500,
 			"blurSwitch" : "true",
 			"followText" : "M10ラストのフェルマータでフェードイン"
 		}
@@ -235,7 +235,7 @@
 			"sceneName" : "1幕11場・2幕1場",
 			"mediaPath" : "0_0.png",
 			"previewPath" : "0_0.png",
-			"fadeDuration" : 300,
+			"fadeDuration" : 500,
 			"blurSwitch" : "true",
 			"followText" : "M25 23小節目で照明と共に フェードイン (武川さんの合図)"
 		}
